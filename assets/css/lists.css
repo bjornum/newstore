@@ -1,0 +1,34 @@
+/* Remove list style */
+.sq-list {padding: 0; list-style: none;}
+/* Adding on hover effect to li items */
+.sq-list-hover li:hover{
+    background-color: var(--primary-highlight);
+    color: var(--text-white)
+}
+/* Adding a divider to the dd list items*/
+.sq-dl-divider dd:not(:last-child),
+/* Adding a divider to the li items */
+.sq-list-divider li:not(:last-child){
+    border-bottom: solid .1em var(--divider);
+}
+/* Adding 0.3em padding to li */
+.sq-list-sm li{padding: .3em;}
+/* Adding 1em padding to li */
+.sq-list-md li{padding: 1em;}
+/* Adding 2em padding to li */
+.sq-list-lg li{padding: 2em;}
+/* Adding uppercase and headline effect to <dt> */
+.sq-dl dt{
+    font-weight:900;
+    text-transform: uppercase;
+    border-bottom: solid .1em var(--primary);
+    margin-bottom: 1em;
+}
+/* Adding padding to the dd */
+.sq-dl dd{padding-left: 3em;}
+
+.sq-code{
+	background-color:var(--background-secondary);
+	border-left:solid 3px var(--primary);
+	padding-left: 1em;
+}

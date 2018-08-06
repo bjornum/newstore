@@ -1,0 +1,32 @@
+/* Main dropdowncontainer with button and content */
+.sq-nav-dropdown{
+  position:relative;
+  display: inline-block;
+}
+/* Container with the dropdown content */
+.sq-nav-dropdown-content{
+    display: none;
+    text-align:center;
+    position: absolute;
+    background-color:var(--secondary-highlight);
+    box-shadow: 0px 0px 0px 0px;
+    min-width:7em;
+    z-index: 1;
+}
+/* Style for li under the dropdown content */
+.sq-nav-dropdown-content li{
+  color:var(--text-white);
+  margin:1em;
+  cursor:pointer;
+}
+/* style for the ul under the dropdown content */
+.sq-nav-dropdown-content ul{
+  list-style:none;
+  padding:0.2em;
+}
+/* Class used with the JS function to toggle hide/show content */
+.sq-show-dropdown-content{
+  display:block;
+}
+/* Onhover effect on the links inside the dropdown content */
+.sq-nav-dropdown-content a:hover{background-color: var(--secondary);}
