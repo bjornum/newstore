@@ -19,6 +19,9 @@ defmodule NewstoreWeb.Router do
     get "/", PageController, :index
   end
 
+  scope "/admin", NewstoreWeb do
+    get "/user", UserController, :index
+  end
   # Other scopes may use custom stacks.
   # scope "/api", NewstoreWeb do
   #   pipe_through :api
