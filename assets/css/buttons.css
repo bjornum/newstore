@@ -1,0 +1,16 @@
+.sq-btn-primary{background-color: var(--primary);color: var(--text-white);}
+.sq-btn-primary:hover{background-color:var(--primary-highlight);}
+.sq-btn-secondary{background-color: var(--secondary);color: var(--text-white);}
+.sq-btn-secondary:hover{background-color:var(--secondary-highlight);}
+.sq-btn-info{background-color:var(--info);}
+.sq-btn-info:hover{background-color:var(--info-highlight);}
+.sq-btn-success{background-color:var(--success);color:var(--text-white);}
+.sq-btn-success:hover{background-color:var(--success-highlight);}
+.sq-btn-warning{background-color:var(--warning);color:var(--white-text) ;}
+.sq-btn-warning:hover{background-color:var(--warning-highlight);}
+.sq-btn-danger{background-color:var(--danger);color:var(--text-white) ;}
+.sq-btn-danger:hover{background-color:var(--danger-highlight);}
+.sq-btn-sm{padding: .3em .6em .3em .6em;}
+.sq-btn-md{padding: .6em 1.2em .6em 1.2em;}
+.sq-btn-lg{padding: .9em 1.8em .9em 1.8em;}
+.sq-btn-wide{width: 100%;}
