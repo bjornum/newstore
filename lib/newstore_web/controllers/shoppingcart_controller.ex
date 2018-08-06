@@ -1,4 +1,4 @@
-defmodule NewstoreWeb.UserController do
+defmodule NewstoreWeb.ShoppingcartController do
     use NewstoreWeb, :controller
   
     def index(conn, _params) do

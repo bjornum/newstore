@@ -17,10 +17,15 @@ defmodule NewstoreWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/product", ProductController, :index
+    get "/shoppingcart", ShoppingcartController, :index
+    get "/products", ProductsController, :index
+    get "/storage", StorageController, :index
   end
 
   scope "/admin", NewstoreWeb do
     get "/user", UserController, :index
+    get "/adminproduct", AdminproductController, :index
   end
   # Other scopes may use custom stacks.
   # scope "/api", NewstoreWeb do
