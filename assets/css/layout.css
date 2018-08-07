@@ -109,6 +109,9 @@
 	height: 100%;
 	width:	100%;
 }
+.sq-flex{
+  display: flex;
+}
 .sq-flex-direction-col{flex-direction:column;}
 .sq-flex-direction-row{flex-direction: row;}
 
