@@ -1,1 +1,73 @@
-<h1>Admin Product</h1>
+<!--Admin Product Page-->
+
+<section>
+  <button class="sq-air-b-1">Add/Create</button>
+  <table class="sq-border-1 sq-border-collapse">
+    <tr>
+      <th>Name</th>
+      <th>Info</th>
+      <th>Storage Status</th>
+      <th>Price</th>
+      <th>Imported from</th>
+      <th>Delete/Update</th>
+      <th>To Storage</th>
+    </tr>
+    <!--Example-->
+    <tr>
+      <td class="sq-border-1 sq-padding-05">Røda Koppen</td>
+      <td class="sq-border-1 sq-padding-05">A special designed red cup </td>
+      <td class="sq-border-1 sq-padding-05">6 in storage</td>
+      <td class="sq-border-1 sq-padding-05">59 nok</td>
+      <td class="sq-border-1 sq-padding-05">Kopp-Steinkjer.AS </td>
+      <td class="sq-border-1 sq-padding-05">
+        <button>Update</button>
+        <button>Delete</button>
+      </td>
+      <td class="sq-border-1 sq-padding-05">
+        <a href="/storage"><button>Storage</button></a>
+      </td>
+    </tr>
+    <tr>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05">
+        <button>Update</button>
+        <button>Delete</button>
+      </td>
+      <td class="sq-border-1 sq-padding-05">
+        <a href="/storage"><button>Storage</button></a>
+      </td>
+    </tr>
+    <tr>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05">
+        <button>Update</button>
+        <button>Delete</button>
+      </td>
+      <td class="sq-border-1 sq-padding-05">
+        <a href="/storage"><button>Storage</button></a>
+      </td>
+    </tr>
+    <tr>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05">
+        <button>Update</button>
+        <button>Delete</button>
+      </td>
+      <td class="sq-border-1 sq-padding-05">
+        <a href="/storage"><button>Storage</button></a>
+      </td>
+    </tr>
+  </table>
+<section>
