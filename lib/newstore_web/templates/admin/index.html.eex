@@ -1,0 +1,3 @@
+<h1>Admin Main Page</h1>
+<span><button class="sq-padding-4"><a href="/admin/user">Users</a></button></span>
+<span><button class="sq-padding-4 sq-air-r-20"><a href="/admin/adminproduct">Products</a></button></span>
