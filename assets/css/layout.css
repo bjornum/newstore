@@ -14,7 +14,7 @@
 .sq-page{
   display: grid;
   grid-template-rows: 15% 1fr 5%;
-  grid-template-columns: 1
+  grid-template-columns: 1fr
 }
 .sq-nav-area{
   grid-area: 1 / 1 / 2 / 2;}
@@ -61,10 +61,19 @@
 }
 /* navbar - main - footer  end */
 
+/* Footer */
+.sq-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;   
+}
+/* Footer */ 
+
 .sq-main{
 	grid-row: 2 / 3;
 	grid-column: 1 / 2;
 }
+
 
 /* 9x5 grid layout */
 .sq-main-layout{
@@ -110,6 +119,18 @@
 	height: 100%;
 	width:	100%;
 }
+.sq-flex{
+  display: flex;
+}
+.sq-flex-auto{
+  flex: auto;
+}
+.sq-flex-wrap{
+  flex-wrap:wrap;
+}
+.sq-flex-1{
+  flex: 1;
+  }
 .sq-flex-direction-col{flex-direction:column;}
 .sq-flex-direction-row{flex-direction: row;}
 
