@@ -1,1 +1,79 @@
-<h1>Admin User Page </h1>
+<div class="sq-main-layout">
+  <div class="" style="background-color:red">
+    <div class="sq-panel-main-top" style="background-color:blue">
+      <h1>Jane Doe</h1>
+        <div class="">
+          <ul>
+            <li>Adresse:</li>
+            <li>Telefon:</li>
+            <li>Epostadresse:</li>
+          </ul>
+          <div class="">
+            <button class="sq-btn-primary" onclick="toggleModal('changeInfo')">Endre Informasjon</button>
+              <div id="changeInfo" class="sq-modal">
+              <!--box-->
+                <div class="sq-modal-content">
+                  <form class="sq-form"  method="post">
+                    <span class="sq-close" onclick="toggleModal('changeInfo')">&times;</span>
+                    <span class="">Change info</span></h1>
+                    <input type="text" placeholder="Navn...">
+                    <input type="text" placeholder="Adresse...">
+                    <input type="text" placeholder="Faktura-Adresse">
+                    <input type="text" placeholder="Telefon...">
+                    <input type="submit" value="Submit">
+                  </form>
+                </div>
+              </div>
+              <!--box end -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sq-panel-main-bottom" style="background-color:yellow">
+        <div class="sq-table-container">
+          <table border="2" class="sq-tables sq-custom-table-position">
+            <colgroup>
+              <col span="3" style="display: none;">
+              <col style="display: none;">
+            </colgroup>
+            <thead><strong>Kjøpshistorikk</strong></thead>
+              <tr>
+              <th>Fakturadato</th>
+              <th>Ordrenr</th>
+              <th>vedlegg</th>
+              <th>Beløp inkl. mva</th>
+              <th>Beløp eks mva</th>
+            </tr>
+              <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+	function toggleModal(changeInfo){
+ 		 var change = document.getElementById("changeInfo");
+ 	 	change.classList.toggle("sq-show-modal");
+	}
+</script>
