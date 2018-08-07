@@ -65,6 +65,7 @@
 	grid-column: 1 / 2;
 }
 
+
 /* 9x5 grid layout */
 .sq-main-layout{
     display: grid;

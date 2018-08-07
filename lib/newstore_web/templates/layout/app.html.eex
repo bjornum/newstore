@@ -65,7 +65,7 @@
     <main role="main sq-main">
       <%= render @view_module, @view_template, assigns %>
     </main>
-    <footer class="sq-secondary">
+    <footer class="sq-secondary sq-footer">
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <div class="sq-secondary sq-flex sq-flex-row sq-justify-around">
