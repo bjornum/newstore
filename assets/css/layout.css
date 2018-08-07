@@ -13,10 +13,12 @@
 .sq-page{
   display: grid;
   grid-template-rows: 15% 1fr 5%;
-  grid-template-columns: 1fr
+  grid-template-columns: 1fr;
+  height: 100%;
 }
 .sq-nav-area{
-  grid-area: 1 / 1 / 2 / 2;}
+  grid-area: 1 / 1 / 1 / end;
+height: 100%;}
 
 .sq-navbar-layout{
   grid-template-rows: 5vh 5vh 5vh;
@@ -61,8 +63,9 @@
 /* navbar - main - footer  end */
 
 .sq-main{
-	grid-row: 2 / 3;
-	grid-column: 1 / 2;
+	grid-row: 2 / 4;
+  grid-column: 1 / end;
+  height: 100%;
 }
 
 
@@ -72,6 +75,7 @@
     grid-template-rows: repeat(5, calc(calc(100vh - calc(5% * 4)) / 5));
     grid-template-columns: repeat(9, 1fr);
     background-color: var(--background-secondary);
+    height: 100%;
 }
 .sq-grid-row-gap{grid-row-gap:1em;}
 .sq-grid-col-gap{grid-column-gap:1em;}

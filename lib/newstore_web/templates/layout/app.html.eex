@@ -13,10 +13,12 @@
 </head>
 
 <body class="sq-viewport" style="margin: 0;">
-  <div class="sq-page">
-    <!--NavBar part 1/3-->
+  <!-- Grid start -->
+  <div class="sq-page" style="background-color: red;">
+    <!--NavBar start-->
     <nav class="sq-nav-area">
       <div class="sq-navbar-layout">
+        <!--NavBar part 1/3-->
         <div class="sq-navbar-nav sq-secondary sq-text-right">
           <!-- Links -->
           <div class=" sq-flex sq-air-x-05 sq-justify-evenly">
@@ -44,7 +46,7 @@
         </div>
         <!-- Navbar part 3/3-->
         <div class="sq-navbar-links sq-secondary-highlight sq-text-center">
-          <div class="sq-nav-btn-group">
+          <div class="sq-nav-btn-group sq-flex sq-justify-evenly">
             <a href="/categories">Categories</a>
             <a href="/Products">Products</a>
             <a href="Products">Best selgere</a>
@@ -53,18 +55,13 @@
         </div>
       </div>  
     </nav>
-
-
-
-
-    
-
-
-
-
-    <main role="main sq-main">
+    <!--NavBar end-->
+    <!-- Main content start -->
+    <main class="sq-main">
       <%= render @view_module, @view_template, assigns %>
     </main>
+    <!-- Main content end -->
+    <!-- Footer start -->
     <footer class="sq-secondary sq-footer">
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
@@ -86,9 +83,9 @@
           </div>
       </div>    
     </footer>
+    <!-- Footer end -->
   </div>
-  <!-- /container -->
+  <!-- Grid end-->
   <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
 </body>
-
 </html>
