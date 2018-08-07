@@ -45,10 +45,10 @@
         <!-- Navbar part 3/3-->
         <div class="sq-navbar-links sq-secondary-highlight sq-text-center">
           <div class="sq-nav-btn-group">
-            <a href="/categories">Categories</a>
-            <a href="/Products">Products</a>
-            <a href="Products">Best selgere</a>
-            <a href="Products">Kampanje</a>
+            <a href="#">Categories</a>
+            <a href="/products">Products</a>
+            <a href="#">Best selgere</a>
+            <a href="#">Kampanje</a>
           </div>
         </div>
       </div>  

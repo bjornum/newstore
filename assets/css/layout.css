@@ -60,6 +60,14 @@
 }
 /* navbar - main - footer  end */
 
+/* Footer */
+.sq-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;   
+}
+/* Footer */ 
+
 .sq-main{
 	grid-row: 2 / 3;
 	grid-column: 1 / 2;
