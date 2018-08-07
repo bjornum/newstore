@@ -24,7 +24,7 @@
         <button>Delete</button>
       </td>
       <td class="sq-border-1 sq-padding-05">
-        <button><a href="/storage">Storage</a></button>
+        <a href="/storage"><button>Storage</button></a>
       </td>
     </tr>
     <tr>
@@ -38,7 +38,7 @@
         <button>Delete</button>
       </td>
       <td class="sq-border-1 sq-padding-05">
-        <button><a href="/storage">Storage</a></button>
+        <a href="/storage"><button>Storage</button></a>
       </td>
     </tr>
     <tr>
@@ -52,7 +52,7 @@
         <button>Delete</button>
       </td>
       <td class="sq-border-1 sq-padding-05">
-        <button><a href="/storage">Storage</a></button>
+        <a href="/storage"><button>Storage</button></a>
       </td>
     </tr>
     <tr>
@@ -66,7 +66,7 @@
         <button>Delete</button>
       </td>
       <td class="sq-border-1 sq-padding-05">
-        <button><a href="/storage">Storage</a></button>
+        <a href="/storage"><button>Storage</button></a>
       </td>
     </tr>
   </table>
