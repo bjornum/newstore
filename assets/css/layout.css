@@ -13,7 +13,7 @@
 .sq-page{
   display: grid;
   grid-template-rows: 15% 1fr 5%;
-  grid-template-columns: 1
+  grid-template-columns: 1fr
 }
 .sq-nav-area{
   grid-area: 1 / 1 / 2 / 2;}
@@ -112,6 +112,15 @@
 .sq-flex{
   display: flex;
 }
+.sq-flex-auto{
+  flex: auto;
+}
+.sq-flex-wrap{
+  flex-wrap:wrap;
+}
+.sq-flex-1{
+  flex: 1;
+  }
 .sq-flex-direction-col{flex-direction:column;}
 .sq-flex-direction-row{flex-direction: row;}
 

@@ -1,0 +1,8 @@
+/* navbar */
+.sq-nav-btn-group button {
+    background-color: var(--secondary-highlight);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+}
