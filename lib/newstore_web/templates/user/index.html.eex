@@ -8,8 +8,8 @@
           <li>Epostadresse:</li>
         </ul>
         <div class="">
-          <button class="sq-btn-primary" onclick="toggleModal('changeInfo')">Endre Informasjon</button>
-            <div id="changeInfo" class="sq-modal">
+          <button class="sq-btn-primary" onclick="toggleModal('myModal')">Endre Informasjon</button>
+            <div id="sq-show-modal" class="sq-modal">
             <!--box-->
               <div class="sq-padding-2">
                 <form class="sq-modal-content sq-form sq-padding-1" method="post">
@@ -70,6 +70,8 @@
   </div>
 </div>
 <script>
-	function toggleModal(changeInfo){
- 		 var change = document.getElementById("changeInfo");
- 	 	change.classList.toggle("sq-show-modal");
+function toggleModal(id){
+  var modal = document.getElementById(id);
+  modal.classList.toggle("sq-show-modal");
+}
+</script>
