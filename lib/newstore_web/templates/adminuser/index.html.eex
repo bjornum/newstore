@@ -1,7 +1,9 @@
 <!--Admin Users page-->
 
-<section>
+<section style="margin-left:1rem;">
   <button class="sq-air-b-1">Add/Create</button>
+  <input type="search..." placeholder="Search users..." style="margin-top:1rem;">
+  <button>Search</button>
   <table class="sq-border-1 sq-border-collapse">
     <tr>
       <th>Name</th>
