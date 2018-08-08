@@ -1,6 +1,8 @@
 <!--Admin Users page-->
-
-<section style="margin-left:1rem;">
+<div class="sq-flex sq-justify-center sq-air-t-30">
+  <h1>Admin Users </h1>
+</div>
+<section style="margin-left:3rem; margin-top:4rem;">
   <button class="sq-air-b-1">Add/Create</button>
   <input type="search..." placeholder="Search users..." style="margin-top:1rem;">
   <button>Search</button>
@@ -37,39 +39,39 @@
       <th>Update/Delete</th>
     </tr>
     <tr id="4123123">
-      <td class="sq-border-1 sq-padding-05 name">Jane Doe</td> 
-      <td class="sq-border-1 sq-padding-05"> <!--Modal Window--> <button class="sq-admin-user-info">Info</button></td>
-      <td class="sq-border-1 sq-padding-05"> <!--Modal--> <button class="sq-admin-user-shopping">Shopping History</button></td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Update</button>
-        <button>Delete</button>
+      <td class="sq-border-1 sq-padding-05 name sq-l-padding-2 sq-r-padding-2">Jane Doe</td> 
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1"> <!--Modal Window--> <button class="sq-admin-user-info sq-l-padding-1 sq-r-padding-1">Info</button></td>
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1"> <!--Modal--> <button class="sq-admin-user-shopping sq-l-padding-1 sq-r-padding-1">Shopping History</button></td>
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1">
+        <button class="sq-l-padding-1 sq-r-padding-1 sq-air-l-10">Update</button>
+        <button class="sq-l-padding-1 sq-r-padding-1">Delete</button>
       </td>
     </tr>
     <tr id="31515123231">
-      <td class="sq-border-1 sq-padding-05 name">Bob Kåre</td> 
-      <td class="sq-border-1 sq-padding-05"> <!--Modal Window--> <button class="sq-admin-user-info">Info</button></td>
-      <td class="sq-border-1 sq-padding-05"> <!--Modal--> <button class="sq-admin-user-shopping">Shopping History</button></td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Update</button>
-        <button>Delete</button>
+      <td class="sq-border-1 sq-padding-05 name sq-l-padding-2 sq-r-padding-2">Bob Kåre</td> 
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1"> <!--Modal Window--> <button class="sq-admin-user-info sq-l-padding-1 sq-r-padding-1">Info</button></td>
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1"> <!--Modal--> <button class="sq-admin-user-shopping sq-l-padding-1 sq-r-padding-1">Shopping History</button></td>
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1">
+        <button class="sq-l-padding-1 sq-r-padding-1 sq-air-l-10">Update</button>
+        <button class="sq-l-padding-1 sq-r-padding-1">Delete</button>
       </td>
     </tr>
     <tr>
-      <td class="sq-border-1 sq-padding-05 name"></td>
-      <td class="sq-border-1 sq-padding-05"> <!--Modal Window--> <button class="sq-admin-user-info">Info</button></td>
-      <td class="sq-border-1 sq-padding-05"> <!--Modal--> <button class="sq-admin-user-shopping">Shopping History</button></td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Update</button>
-        <button>Delete</button>
+      <td class="sq-border-1 sq-padding-05 name sq-l-padding-2 sq-r-padding-2"></td>
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1"> <!--Modal Window--> <button class="sq-admin-user-info sq-l-padding-1 sq-r-padding-1">Info</button></td>
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1"> <!--Modal--> <button class="sq-admin-user-shopping sq-l-padding-1 sq-r-padding-1">Shopping History</button></td>
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1">
+        <button class="sq-l-padding-1 sq-r-padding-1 sq-air-l-10">Update</button>
+        <button class="sq-l-padding-1 sq-r-padding-1">Delete</button>
       </td>
     </tr>
     <tr>
-      <td class="sq-border-1 sq-padding-05 name"></td>
-      <td class="sq-border-1 sq-padding-05"> <!--Modal Window--> <button class="sq-admin-user-info">Info</button></td>
-      <td class="sq-border-1 sq-padding-05"> <!--Modal--> <button class="sq-admin-user-shopping">Shopping History</button></td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Update</button>
-        <button>Delete</button>
+      <td class="sq-border-1 sq-padding-05 name sq-l-padding-2 sq-r-padding-2"></td>
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1"> <!--Modal Window--> <button class="sq-admin-user-info sq-l-padding-1 sq-r-padding-1">Info</button></td>
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1"> <!--Modal--> <button class="sq-admin-user-shopping sq-l-padding-1 sq-r-padding-1">Shopping History</button></td>
+      <td class="sq-border-1 sq-padding-05 sq-l-padding-1 sq-r-padding-1">
+        <button class="sq-l-padding-1 sq-r-padding-1 sq-air-l-10">Update</button>
+        <button class="sq-l-padding-1 sq-r-padding-1">Delete</button>
       </td>
     </tr>
   </table>
