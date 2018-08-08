@@ -80,7 +80,7 @@
     grid-template-rows: repeat(5, calc(calc(100vh - calc(5% * 4)) / 5));
     grid-template-columns: repeat(9, 1fr);
     background-color: var(--background-secondary);
-
+    height: 100%;
 }
 .sq-grid-row-gap{grid-row-gap:1em;}
 .sq-grid-col-gap{grid-column-gap:1em;}
