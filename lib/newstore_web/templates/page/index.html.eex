@@ -1,18 +1,93 @@
-halla
-
-
-
-
-
-
-
-
-
-
-halla
-
-
-
-
-
-hallla
+<div class="sq-main-layout">
+  <div class="sq-grid-area-landing-best sq-mt-1 sq-mb-1">
+    <p class="sq-text-center">Hot right now!</p>
+    <div class="sq-panel sq-flex-wrap" style="justify-content:space-around;">
+      <div class="sq-landing-card sq-card sq-text-center">
+        <div class="sq-card-header">
+          <p>Super coffe mug</p>
+        </div>
+        <div class="sq-card-body">
+        </div>
+        <div class="sq-card-footer">
+          <p>Price:<del> $49.99</del> $29.99</p>
+        </div>
+      </div>
+      <div class="sq-landing-card sq-card sq-text-center">
+        <div class="sq-card-header">
+          <p>Super coffe mug</p>
+        </div>
+        <div class="sq-card-body">
+        </div>
+        <div class="sq-card-footer">
+          <p>Price:<del> $49.99</del> $29.99</p>
+        </div>
+      </div>
+      <div class="sq-landing-card sq-card sq-text-center">
+        <div class="sq-card-header">
+          <p>Super coffe mug</p>
+        </div>
+        <div class="sq-card-body">
+        </div>
+        <div class="sq-card-footer">
+          <p>Price:<del> $49.99</del> $29.99</p>
+        </div>
+      </div>
+      <div class="sq-landing-card sq-card sq-text-center">
+        <div class="sq-card-header">
+          <p>Super coffe mug</p>
+        </div>
+        <div class="sq-card-body">
+        </div>
+        <div class="sq-card-footer">
+          <p>Price:<del> $49.99</del> $29.99</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sq-grid-area-landing-news sq-mt-1 sq-mb-1">
+    <p class="sq-text-center">Fresh and new!</p>
+    <div class="sq-panel sq-flex-wrap" style="justify-content:space-around;">
+      <div class="sq-landing-card sq-card sq-text-center">
+        <div class="sq-card-header">
+          <p>Super coffe mug</p>
+        </div>
+        <div class="sq-card-body">
+        </div>
+        <div class="sq-card-footer">
+          <p>Price:<del> $49.99</del> $29.99</p>
+        </div>
+      </div>
+      <div class="sq-landing-card sq-card sq-text-center">
+        <div class="sq-card-header">
+          <p>Super coffe mug</p>
+        </div>
+        <div class="sq-card-body">
+        </div>
+        <div class="sq-card-footer">
+          <p>Price:<del> $49.99</del> $29.99</p>
+        </div>
+      </div>
+      <div class="sq-landing-card sq-card sq-text-center">
+        <div class="sq-card-header">
+          <p>Super coffe mug</p>
+        </div>
+        <div class="sq-card-body">
+        </div>
+        <div class="sq-card-footer">
+          <p>Price:<del> $49.99</del> $29.99</p>
+        </div>
+      </div>
+      <div class="sq-landing-card sq-card sq-text-center">
+        <div class="sq-card-header">
+          <p>Super coffe mug</p>
+        </div>
+        <div class="sq-card-body">
+        </div>
+        <div class="sq-card-footer">
+          <p>Price:<del> $49.99</del> $29.99</p>
+        </div>
+      </div>
+    </div>
+    hahahaha
+  </div>
+</div>  
