@@ -64,7 +64,7 @@
     <!-- Main content end -->
     <!-- Footer start -->
     
-    <!-- Footer end -->
+
   </div>
   <!-- Grid end-->
   <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
