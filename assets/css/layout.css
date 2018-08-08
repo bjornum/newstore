@@ -97,7 +97,11 @@
 .sq-panel-main-top{grid-area: 1 / 1 / span 2 / span end; }
 .sq-panel-main-bottom{grid-area: 3 / 1 / span end / span end; }
 .sq-panel-main{grid-area: 1 / 1 / span end / span end; }
-
+/* Products */
+.sq-panel-header-top{grid-area: 1 / 1 / span 1 / span end; }
+.sq-panel-header-bottom{grid-area: 2 / 1 / span 1 / span end; }
+.sq-panel-main-content{grid-area: 3 / 2 /  span end / span 7; }
+/* products end */
 /* cards */
 .sq-card{
     display: grid;
