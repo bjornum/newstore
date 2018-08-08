@@ -21,10 +21,12 @@ defmodule NewstoreWeb.Router do
     get "/shoppingcart", ShoppingcartController, :index
     get "/products", ProductsController, :index
     get "/storage", StorageController, :index
+    get "/admin", AdminController, :index
   end
 
   scope "/admin", NewstoreWeb do
     get "/user", UserController, :index
+    get "/adminuser", AdminuserController, :index
     get "/adminproduct", AdminproductController, :index
   end
   # Other scopes may use custom stacks.
