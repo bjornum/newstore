@@ -80,7 +80,7 @@
     grid-template-rows: repeat(5, calc(calc(100vh - calc(5% * 4)) / 5));
     grid-template-columns: repeat(9, 1fr);
     background-color: var(--background-secondary);
-
+    height: 100%;
 }
 .sq-grid-row-gap{grid-row-gap:1em;}
 .sq-grid-col-gap{grid-column-gap:1em;}
@@ -97,7 +97,11 @@
 .sq-panel-main-top{grid-area: 1 / 1 / span 2 / span end; }
 .sq-panel-main-bottom{grid-area: 3 / 1 / span end / span end; }
 .sq-panel-main{grid-area: 1 / 1 / span end / span end; }
-
+/* Products */
+.sq-panel-header-top{grid-area: 1 / 1 / span 1 / span end; }
+.sq-panel-header-bottom{grid-area: 2 / 1 / span 1 / span end; }
+.sq-panel-main-content{grid-area: 3 / 2 /  span end / span 7; }
+/* products end */
 /* cards */
 .sq-card{
     display: grid;

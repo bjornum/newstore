@@ -63,26 +63,7 @@
     </main>
     <!-- Main content end -->
     <!-- Footer start -->
-    <footer class="sq-secondary sq-footer">
-      
-      <div class="sq-secondary sq-flex sq-flex-row sq-justify-around">
-          <div>
-           Phone: <a href="tel:0000" class="sq-text-white sq-secondary">#########</a>
-          </div>
-          <div>
-          <a href="/about" class="sq-text-white sq-secondary">About</a>
-          </div>
-          <div>
-          <a href="/support" class="sq-text-white sq-secondary">Support</a>
-          </div>
-          <div>
-          <a href="/faq" class="sq-text-white sq-secondary">FAQ</a>
-          </div>
-          <div>
-          <a href="mailto:nobody@online.no" class="sq-text-white sq-secondary">Mail</a>
-          </div>
-      </div>    
-    </footer>
+    
     <!-- Footer end -->
   </div>
   <!-- Grid end-->
