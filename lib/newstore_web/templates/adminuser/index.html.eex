@@ -37,7 +37,7 @@
       <th>Update/Delete</th>
     </tr>
     <tr id="4123123">
-      <td class="sq-border-1 sq-padding-05 name">Jane Doe</td> 
+      <td class="sq-border-1 sq-padding-05 name">Jane Doe</td>
       <td class="sq-border-1 sq-padding-05"> <!--Modal Window--> <button class="sq-admin-user-info">Info</button></td>
       <td class="sq-border-1 sq-padding-05"> <!--Modal--> <button class="sq-admin-user-shopping">Shopping History</button></td>
       <td class="sq-border-1 sq-padding-05">
@@ -46,7 +46,7 @@
       </td>
     </tr>
     <tr id="31515123231">
-      <td class="sq-border-1 sq-padding-05 name">Bob Kåre</td> 
+      <td class="sq-border-1 sq-padding-05 name">Bob Kåre</td>
       <td class="sq-border-1 sq-padding-05"> <!--Modal Window--> <button class="sq-admin-user-info">Info</button></td>
       <td class="sq-border-1 sq-padding-05"> <!--Modal--> <button class="sq-admin-user-shopping">Shopping History</button></td>
       <td class="sq-border-1 sq-padding-05">
@@ -89,7 +89,7 @@
         var userName = el.target.parentElement.parentElement.querySelector('.name').innerHTML;
         imodal.querySelector('#userID').value = userID;
         imodal.querySelector('.name').innerHTML = userName;
-        imodal.style.display = "block";
+        imodal.style.visibility = "visible";
     }
   }
 
@@ -99,7 +99,7 @@
       shs.onclick =  (el) => { //applies function to onclick event on iterated element
         var userID = el.target.parentElement.parentElement.id;
         shmodal.querySelector('#userID').value = userID;
-        shmodal.style.display = "block";
+        shmodal.style.visibility = "visible";
     }
   }
 //Button id end
@@ -110,7 +110,7 @@
   var ispan = document.getElementsByClassName("iclose")
   for (shs of ispan) { //Iterates through HTML DOM elements
       shs.onclick =  (el) => { //applies function to onclick event on iterated element
-        el.target.parentElement.parentElement.style.display = "none"; //elevates itself from shclose-button to modal element, then sets display to none.
+        el.target.parentElement.parentElement.style.visibility = "hidden"; //elevates itself from shclose-button to modal element, then sets display to none.
     }
   }
 
@@ -118,7 +118,7 @@
   var shspan = document.getElementsByClassName("shclose"); //Selects all "shclose"-buttons
   for (shs of shspan) { //Iterates through HTML DOM elements
       shs.onclick =  (el) => { //applies function to onclick event on iterated element
-        el.target.parentElement.parentElement.style.display = "none"; //elevates itself from shclose-button to modal element, then sets display to none.
+        el.target.parentElement.parentElement.style.visibility = "hidden"; //elevates itself from shclose-button to modal element, then sets display to none.
     }
   }
 //end
