@@ -12,7 +12,7 @@
   transform: scale(1.1);
   transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
   z-index: 1; /* Sit on top */
-
+  visibility: hidden;
   padding-top: 6em; /* push box down */
   overflow: auto; /* if needing to scroll */
 }
