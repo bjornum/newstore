@@ -1,8 +1,10 @@
 <h1>Shoppingcart </h1>
-
-<section>
-  <button>Checkout</button>
-  <table>
+<div class="sq-flex sq-justify-center sq-air-b-1 sq-air-r-custom sq-air-t-20">
+    <button>Checkout</button>
+</div>
+<section class="sq-air-r-40">
+  <div class="sq-border-1 sq-width-70p">
+  <table class="sq-border-collapse sq-width-100p">
     <tr>
       <th>Image</th>
       <th>Name</th>
@@ -13,32 +15,53 @@
       <th></th>
     </tr>
     <tr>
-      <td>...</td>
-      <td>Red Cup</td>
-      <td>2</td>
-      <td>15 Nok</td>
-      <td>30 Nok</td>
-      <td>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td class="sq-border-1"><img src="/images/userr.png" alt="" height="100" width="100"></td>
+      <td class="sq-border-1">Red Cup</td>
+      <td class="sq-border-1">2</td>
+      <td class="sq-border-1">15 Nok</td>
+      <td class="sq-border-1">30 Nok</td>
+      <td class="sq-border-1">
         <button>Delete</button>
       </td>
-      <td>amount</td>
     </tr>
     <tr>
-      <td>...</td>
-      <td>blue Cup</td>
-      <td>1</td>
-      <td>17 Nok</td>
-      <td>17 Nok</td>
-      <td>
+      <td class="sq-border-1"><img src="/images/userr.png" alt="" height="100" width="100"></td>
+      <td class="sq-border-1">blue Cup</td>
+      <td class="sq-border-1">1</td>
+      <td class="sq-border-1">17 Nok</td>
+      <td class="sq-border-1">17 Nok</td>
+      <td class="sq-border-1">
         <button>Delete</button>
     </tr>
     <tr>
-      <td>...</td>
-      <td>Green Cup</td>
-      <td>5</td>
-      <td>10 Nok</td>
-      <td>50 Nok</td>
-      <td>
+      <td class="sq-border-1"><img src="/images/userr.png" alt="" height="100" width="100"></td>
+      <td class="sq-border-1">Green Cup</td>
+      <td class="sq-border-1">5</td>
+      <td class="sq-border-1">10 Nok</td>
+      <td class="sq-border-1">50 Nok</td>
+      <td class="sq-border-1">
         <button>Delete</button>
+    </tr>
+    <tr>
+      <td><br><br></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="sq-border-1">Sum  97 Nok</td>
+    </tr>
+    <tr>
     </tr>
   </table>
+  </div>
+</section>
+<div class="sq-flex sq-justify-center sq-air-t-10 sq-air-r-custom">
+    <button>Checkout</button>
+</div>
