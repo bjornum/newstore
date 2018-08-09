@@ -3,7 +3,7 @@
 <section style="margin-left:10em; margin-right:1rem;">
   <button class="sq-air-b-1">Add/Create</button>
   <input type="search..." placeholder="Search product..." style="margin-top:1rem;"> <button>Search</button>
-  <table class="sq-border-1 sq-border-collapse sq-width-85p">
+  <table class="sq-border-1 sq-border-collapse sq-width-90p">
     <tr>
       <th>Name</th>
       <th>Info</th>
@@ -14,9 +14,9 @@
       <th>Delete/Update</th>
       <th>To Storage</th>
     </tr>
-    <!--Example-->
+    <!-- Example,    -->
     <tr id="asdasd">
-      <td class="sq-border-1 sq-padding-05 sq-width-5p sq-bold">Rød Kopp</td>
+      <td class="sq-border-1 sq-padding-05 sq-width-10p sq-bold">Rød Kopp</td>
       <td class="sq-border-1 sq-padding-05">always it was the red kopp lel a mother once knew a son. the father of the son took the son to the mountains to the cabin and went fishing. they never came back, so the mother of the son started making cups.</td>
       <td class="sq-border-1 sq-padding-05 " >100</td>
       <td class="sq-border-1 sq-padding-05">
