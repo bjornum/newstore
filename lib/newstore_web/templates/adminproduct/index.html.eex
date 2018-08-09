@@ -1,6 +1,6 @@
 <!--Admin Product Page-->
 
-<section style="margin-left:10em; margin-right:1rem;">
+<section style="margin-left:1rem; margin-right:1rem;">
   <button class="sq-air-b-1">Add/Create</button>
   <input type="search..." placeholder="Search product..." style="margin-top:1rem;"> <button>Search</button>
   <table class="sq-border-1 sq-border-collapse sq-width-90p">
