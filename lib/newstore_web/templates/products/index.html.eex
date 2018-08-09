@@ -80,7 +80,10 @@
       <div class="sq-modal-content">
         <input hidden id="userID" value="">
         <span class="iclose">&times;</span>
-        
+        <div>
+        <img src="/images/user.png" alt="" class="sq-landing-card">
+        <p>info about product</p>
+        </div>
         <p>Paragraph 1</p>
         <p>Paragraph 1</p>
         <p>Paragraph 1</p>
