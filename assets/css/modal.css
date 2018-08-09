@@ -10,9 +10,9 @@
   opacity: 1; /*How much of the background should be shown*/
   /* visibility: hidden; /*Same as display none*/
   transform: scale(1.1);
-  transition: visibility 0s linear 0.25s, opacity         0.25s 0s, transform 0.25s;
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
   z-index: 1; /* Sit on top */
-  display: none; /* Hidden by default */
+  visibility: hidden; /* Hidden by default */
   padding-top: 6em; /* push box down */
   overflow: auto; /* if needing to scroll */
 }
@@ -24,8 +24,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  width: 80%;
-  height:80%;
 }
 
 /* Adds a close button to the modal window */

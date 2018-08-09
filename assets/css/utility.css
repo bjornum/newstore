@@ -43,9 +43,9 @@
 .sq-b-padding-5{padding-bottom: 5em;}
 
 /* Borders start */
-.sq-border-1{border: 1px solid;}
-.sq-border-3{border: 3px solid;}
-.sq-border-5{border: 5px solid;}
+.sq-border-1{border: black 1px solid;}
+.sq-border-3{border:black 3px solid;}
+.sq-border-5{border: black 5px solid;}
 
 /* Border styles */   /*   !  Works only on borders with all four sides ! */
 .sq-solid{border-style: solid;}

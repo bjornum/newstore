@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,12 +22,12 @@
         <div class="sq-navbar-nav sq-secondary sq-text-right">
           <!-- Links -->
           <div class=" sq-flex sq-air-x-05 sq-justify-evenly">
-          
-          <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Sign up for our newsletter</a>
-          <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Welcome to out Store!</a>
-          <a href="#" class="sq-text-white sq-secondary ">Contact us</a>
+
+            <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Sign up for our newsletter</a>
+            <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Welcome to out Store!</a>
+            <a href="#" class="sq-text-white sq-secondary ">Contact us</a>
           </div>
-        </div> 
+        </div>
         <!--NavBar part 2/3-->
         <div class="sq-navbar-domain sq-secondary sq-flex" style="width:100%;">
           <a href="/" class="sq-text-white sq-secondary">Home!</a>
@@ -38,43 +39,48 @@
           <!--SearchBar end-->
           <!--SignIn button -->
           <div class="sq-flex-1 sq-text-center">
-          <button class="sq-btn" onclick="toggleModal('myModal')">Login</button>
-          <div class="sq-modal" id="myModal">
-              <div class="sq-modal-body" style="width:24rem;">
-		<header>
-            <div class="sq-close-button" onclick="toggleModal('myModal')">&times;</div>
-        </header>
-        <div class="sq-modal-content">
-				<section>
-					<form class="sq-form" action="index.html" method="post">
-        				<fieldset>
-          					<legend>Login</legend>
-          					<label>Email</label>
-          					<input type="email" name="" value="" placeholder="E-mail">
-          					<label>Password</label>
-          					<input type="password" name="" value="" placeholder="Password">
-          					<div class=" sq-container">
-								<a href="#">
-									<div class="sq-justify-left">
-										<a href="/page">
-										<button type="submit" name="">Login</button>
-										</a>
-									</div>
-								</a>
-								<a href="/reguser">
-									<div class="sq-justify-right">
-										<button type="button" name="">New user</button>
-									</div>
-								</a>
-          					</div>
-        				</fieldset>
-					</form>
-                </section>
-        </div>
-        </div>
-    </div>
-          
-          
+            <button class="sq-btn" onclick="toggleModal('myModal')" style="margin-right: 0; margin-top: 0;">Login</button>
+            <div class="sq-modal" id="myModal">
+                
+                <div class="sq-modal-content" style="width: 20em; height: 12em;">
+                  <header>
+                    <span class="sq-close" onclick="toggleModal('myModal')">&times;</span>
+                  </header>
+                  <section>
+                    <form class="sq-form sq-text-base" action="index.html" method="post">
+                      <fieldset>
+                        <legend>Login</legend>
+                        <label>Email</label>
+                        <input type="email" name="" value="" placeholder="E-mail">
+                        <label>Password</label>
+                        <input type="password" name="" value="" placeholder="Password">
+                        <div class="sq-flex-container-middle">
+                          <a href="#">
+                            <div class="sq-force-left">
+                              <a href="/page">
+                                <button type="submit" name="">Login</button>
+                              </a>
+                            </div>
+                          </a>
+                          <a href="/reguser">
+                            <div class="sq-force-right">
+                              <button type="button" name="">New user</button>
+                            </div>
+                          </a>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </section>
+                </div>
+            </div>
+            <script>
+              function toggleModal(id) {
+                var modal = document.getElementById(id);
+                modal.classList.toggle("sq-show-modal");
+              }
+            </script>
+
+
           </div>
           <!--SignIn button end -->
           <!--ShoppingCart button -->
@@ -90,7 +96,7 @@
             <a href="Products">Kampanje</a>
           </div>
         </div>
-      </div>  
+      </div>
     </nav>
     <!--NavBar end-->
     <!-- Main content start -->
@@ -99,15 +105,12 @@
     </main>
     <!-- Main content end -->
     <!-- Footer start -->
-    
+
     <!-- Footer end -->
   </div>
   <!-- Grid end-->
   <script src="<%= static_path(@conn, "/js/app.js") %>">
-  window.toggleModal = (id)=> {
-  var modal = document.getElementById(id);
-  modal.classList.toggle('sq-modal-show');
-};
   </script>
 </body>
+
 </html>
