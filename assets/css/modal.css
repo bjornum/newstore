@@ -12,7 +12,7 @@
   transform: scale(1.1);
   transition: visibility 0s linear 0.25s, opacity         0.25s 0s, transform 0.25s;
   z-index: 1; /* Sit on top */
-  display: none; /* Hidden by default */
+  visibility: hidden;/* Hidden by default */
   padding-top: 6em; /* push box down */
   overflow: auto; /* if needing to scroll */
 }
@@ -113,7 +113,7 @@
     margin: 2rem;
   }
   social media modal box end... */
-   /* modal for user page. no longer in use. 
+   /* modal for user page. no longer in use.
   .sq-modal-user-page{
     position: fixed;
     left: 0;
