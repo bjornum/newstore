@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +11,7 @@
   <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 </head>
 
-<body class="sq-viewport" style="margin: 0;">
+<body style="margin: 0;">
   <!-- Grid start -->
   <div class="sq-page">
     <!--NavBar start-->
@@ -23,9 +22,9 @@
           <!-- Links -->
           <div class=" sq-flex sq-air-x-05 sq-justify-evenly">
 
-            <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Sign up for our newsletter</a>
-            <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Welcome to out Store!</a>
-            <a href="#" class="sq-text-white sq-secondary ">Contact us</a>
+          <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Sign up for our newsletter</a>
+          <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Welcome to out Store!</a>
+          <a href="#" class="sq-text-white sq-secondary ">Contact us</a>
           </div>
         </div>
         <!--NavBar part 2/3-->
@@ -38,53 +37,19 @@
           </div>
           <!--SearchBar end-->
           <!--SignIn button -->
-          <div class="sq-flex-1 sq-text-center">
-            <button class="sq-btn" onclick="toggleModal('myModal')" style="margin-right: 0; margin-top: 0;">Login</button>
-            <div class="sq-modal" id="myModal">
-                
-                <div class="sq-modal-content" style="width: 20em; height: 12em;">
-                  <header>
-                    <span class="sq-close" onclick="toggleModal('myModal')">&times;</span>
-                  </header>
-                  <section>
-                    <form class="sq-form sq-text-base" action="index.html" method="post">
-                      <fieldset>
-                        <legend>Login</legend>
-                        <label>Email</label>
-                        <input type="email" name="" value="" placeholder="E-mail">
-                        <label>Password</label>
-                        <input type="password" name="" value="" placeholder="Password">
-                        <div class="sq-flex-container-middle">
-                          <a href="#">
-                            <div class="sq-force-left">
-                              <a href="/page">
-                                <button type="submit" name="">Login</button>
-                              </a>
-                            </div>
-                          </a>
-                          <a href="/reguser">
-                            <div class="sq-force-right">
-                              <button type="button" name="">New user</button>
-                            </div>
-                          </a>
-                        </div>
-                      </fieldset>
-                    </form>
-                  </section>
-                </div>
-            </div>
-            <script>
-              function toggleModal(id) {
-                var modal = document.getElementById(id);
-                modal.classList.toggle("sq-show-modal");
-              }
-            </script>
-
-
-          </div>
+          <div class="sq-flex-1 sq-text-right"></div>
           <!--SignIn button end -->
           <!--ShoppingCart button -->
-          <div></div>
+          <button class="sq-nav-dropdown">
+						<svg id="i-cart" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+							<path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
+							<circle cx="25" cy="27" r="2" />
+							<circle cx="12" cy="27" r="2" />
+						</svg>
+						<div class=" sq-secondary sq-nav-dropdown-content">
+              adfggfsdgfshsdf
+            </div>
+						</button>
           <!--ShoppingCart button end -->
         </div>
         <!-- Navbar part 3/3-->
@@ -109,8 +74,6 @@
     <!-- Footer end -->
   </div>
   <!-- Grid end-->
-  <script src="<%= static_path(@conn, "/js/app.js") %>">
-  </script>
+  <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
 </body>
-
 </html>

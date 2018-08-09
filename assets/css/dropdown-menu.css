@@ -30,3 +30,6 @@
 }
 /* Onhover effect on the links inside the dropdown content */
 .sq-nav-dropdown-content a:hover{background-color: var(--secondary);}
+.sq-nav-dropdown:hover .sq-nav-dropdown-content{
+    display: block;
+}
