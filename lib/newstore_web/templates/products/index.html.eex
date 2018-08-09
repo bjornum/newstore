@@ -15,7 +15,7 @@
                 <div class="sq-card-header sq-text-center">
                     <p>Product name</p>
                 </div>    
-                <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
+                <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
                     <img src="/images/user.png" alt="" class="sq-landing-card">
                 </div>
                 <div class="sq-card-footer sq-text-center">
@@ -27,7 +27,7 @@
                 <div class="sq-card-header sq-text-center">
                     <p>Product name</p>
                 </div>    
-                <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
+                <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
                     <img src="/images/user.png" alt="" class="sq-landing-card">
                 </div>
                 <div class="sq-card-footer sq-text-center">
@@ -39,7 +39,7 @@
                 <div class="sq-card-header sq-text-center">
                     <p>Product name</p>
                 </div>    
-                <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
+                <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
                     <img src="/images/user.png" alt="" class="sq-landing-card">
                 </div>
                 <div class="sq-card-footer sq-text-center">
@@ -51,7 +51,7 @@
                 <div class="sq-card-header sq-text-center">
                     <p>Product name</p>
                 </div>    
-                <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
+                <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
                     <img src="/images/user.png" alt="" class="sq-landing-card">
                 </div>
                 <div class="sq-card-footer sq-text-center">
@@ -63,7 +63,7 @@
                 <div class="sq-card-header sq-text-center">
                     <p>Product name</p>
                 </div>    
-                <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
+                <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
                     <img src="/images/user.png" alt="" class="sq-landing-card">
                 </div>
                 <div class="sq-card-footer sq-text-center">
