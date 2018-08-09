@@ -27,19 +27,7 @@
 }
 
 /* Adds a close button to the modal window */
-.sq-close {
-  margin-right: 0.5em;
-  margin-top: 0.3em;
-  float: right;
-  cursor: pointer;
-  background-color:var(--primary);
-  font-size: 1.5em;
-}
 
-/* Highlights close button on hover */
-.sq-close-button:hover {
-    background-color:var(--primary-highlight)
-}
 /* Shows the modal window */
 .sq-show-modal {
     opacity: 1;
