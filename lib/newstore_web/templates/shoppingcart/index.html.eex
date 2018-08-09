@@ -1,1 +1,44 @@
 <h1>Shoppingcart </h1>
+
+<section>
+  <button>Checkout</button>
+  <table>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Amount</th>
+      <th>price</th>
+      <th>Total Price</th>
+      <th>delete</th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>Red Cup</td>
+      <td>2</td>
+      <td>15 Nok</td>
+      <td>30 Nok</td>
+      <td>
+        <button>Delete</button>
+      </td>
+      <td>amount</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>blue Cup</td>
+      <td>1</td>
+      <td>17 Nok</td>
+      <td>17 Nok</td>
+      <td>
+        <button>Delete</button>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>Green Cup</td>
+      <td>5</td>
+      <td>10 Nok</td>
+      <td>50 Nok</td>
+      <td>
+        <button>Delete</button>
+    </tr>
+  </table>
