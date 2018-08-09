@@ -11,7 +11,7 @@
     </div>
     <div class="sq-panel-main-content sq-air-10">
         <div class="sq-air-y-1 sq-panel sq-flex-wrap sq-justify-space-around">
-            <div class="sq-product-card sq-card sq-air-05" style="background-color: #e8eff7;">
+            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7; display:block;" >
                 <div class="sq-card-header sq-text-center">
                     <p>Product name</p>
                 </div>    
@@ -23,7 +23,7 @@
                     <button>Buy</button>
                 </div>
             </div>
-            <div class="sq-product-card sq-card sq-air-05" style="background-color: #e8eff7;">
+            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7;">
                 <div class="sq-card-header sq-text-center">
                     <p>Product name</p>
                 </div>    
@@ -35,7 +35,7 @@
                     <button>Buy</button>
                 </div>
             </div>
-            <div class="sq-product-card sq-card sq-air-05" style="background-color: #e8eff7;">
+            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7;">
                 <div class="sq-card-header sq-text-center">
                     <p>Product name</p>
                 </div>    
@@ -47,7 +47,7 @@
                     <button>Buy</button>
                 </div>
             </div>
-            <div class="sq-product-card sq-card sq-air-05" style="background-color: #e8eff7;">
+            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7;">
                 <div class="sq-card-header sq-text-center">
                     <p>Product name</p>
                 </div>    
@@ -59,7 +59,7 @@
                     <button>Buy</button>
                 </div>
             </div>
-            <div class="sq-product-card sq-card sq-air-05" style="background-color: #e8eff7;">
+            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7;">
                 <div class="sq-card-header sq-text-center">
                     <p>Product name</p>
                 </div>    
@@ -74,12 +74,41 @@
         </div>
         
     </div>
-
-
-
-
-
-
-
-
 </div>
+<div id="sq-modal-info" class="sq-modal">
+      <div class="sq-modal-content">
+        <input hidden id="userID" value="">
+        <span class="iclose sq-close">&times;</span>
+        <div class="sq-flex">
+        <img src="/images/user.png" alt="" class="sq-landing-card sq-air-r-10">
+        <p>info about product</p>
+        </div>
+        <div class="sq-flex">
+        <p>More descriptive description of the product</p>
+        <a href="/shoppingcart"><button>Buy</button></a>
+        </div>
+      </div>
+    </div>
+<script>
+    //get modal info and shopping start
+    var imodal = document.getElementById("sq-modal-info");
+
+    // Button id that opens the modal start
+    //Info
+    var info = document.getElementsByClassName("sq-admin-user-info");
+    for (shs of info) { //Iterates through HTML DOM elements
+        shs.onclick =  (el) => { //applies function to onclick event on iterated element
+            var userName = el.target.parentElement.parentElement.parentElement.parentElement.parentElement.querySelector;
+            imodal.style.visibility = "visible";
+        }
+    }
+
+    // Get the <span> element that closes the modal start
+    //info
+    var ispan = document.getElementsByClassName("iclose")
+    for (shs of ispan) { //Iterates through HTML DOM elements
+        shs.onclick =  (el) => { //applies function to onclick event on iterated element
+            el.target.parentElement.parentElement.style.visibility = "hidden"; //elevates itself from shclose-button to modal element, then sets display to none.
+        }
+    }
+</script>
