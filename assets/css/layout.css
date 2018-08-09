@@ -124,6 +124,12 @@
   background-color:var(--primary-highlight);
   margin:0.5em;
 } 
+.sq-product-card{
+  height:20rem;
+  width:20rem;
+  background-color: var(--primary-highlight);
+  margin:0.5em;
+}
 
 
 .sq-card-header{grid-area: 1 / 1 / span 1 / span end;}
@@ -151,7 +157,14 @@
 .sq-flex-1{
   flex: 1;
   }
-
+  .sq-force-right{
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+  .sq-force-left{
+    justify-content: flex-start;
+    margin-right: auto;
+  }
 .sq-flex-direction-col{flex-direction:column;}
 .sq-flex-direction-row{flex-direction: row;}
 
