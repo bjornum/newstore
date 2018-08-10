@@ -19,7 +19,7 @@
     <nav class="sq-nav-area">
       <div class="sq-navbar-layout">
         <!--NavBar part 1/3-->
-        <div class="sq-navbar-nav sq-secondary sq-text-right">
+        <div class="sq-navbar-nav sq-secondary sq-text-right" style="width:100%; min-height:2rem;">
           <!-- Links -->
           <div class=" sq-flex sq-air-x-05 sq-justify-evenly">
 
@@ -29,7 +29,7 @@
           </div>
         </div>
         <!--NavBar part 2/3-->
-        <div class="sq-navbar-domain sq-secondary sq-flex" style="width:100%;">
+        <div class="sq-navbar-domain sq-secondary sq-flex" style="width:100%; min-height:2rem;">
           <a href="/" class="sq-text-white sq-secondary">Home!</a>
           <div class="sq-flex-1"></div>
           <!-- SearchBar -->
@@ -88,7 +88,7 @@
           <!--ShoppingCart button end -->
         </div>
         <!-- Navbar part 3/3-->
-        <div class="sq-navbar-links sq-secondary-highlight sq-text-center">
+        <div class="sq-navbar-links sq-secondary-highlight sq-text-center" style="width:100%; min-height:2rem;">
           <div class="sq-nav-btn-group sq-flex sq-justify-evenly">
             <a href="/categories">Categories</a>
             <a href="/Products">Products</a>
