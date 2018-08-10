@@ -78,14 +78,4 @@
     document.getElementById("sq-total").value = tot; //show in element with total id as the value found in Tot
 }
 
-//amount and price into total price
- function findTotalprice(){
-    var arr2 = document.getElementsByName("sq-tot-price"); //are connected to input through sq-tot-price
-    var tot2=0; //starting value is 0
-    for(var i=0;i<arr2.length;i++){ //start 0, increase by 1 
-        if(parseInt(arr2[i].value)) //parse glue it together if a value are made
-            tot += parseInt(arr2[i].value);  //0 + the glued value
-    }
-    document.getElementById("sq-total").value = tot2; //show in element with total id as the value found in Tot
-}
 </script>
