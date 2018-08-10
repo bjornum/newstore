@@ -14,3 +14,23 @@
 .sq-btn-md{padding: .6em 1.2em .6em 1.2em;}
 .sq-btn-lg{padding: .9em 1.8em .9em 1.8em;}
 .sq-btn-wide{width: 100%;}
+
+/*button styles*/
+
+.sq-button1 {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #72767b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #0c0c0c;
+  }
+  
+  .sq-button1:hover {background-color: #393f44}
+  

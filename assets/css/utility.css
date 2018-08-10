@@ -253,3 +253,9 @@
 
 .sq-overflow-hidden{ overflow: hidden;}
 .sq-overflow-scroll{overflow: scroll;}
+ /* Force classes */
+
+ .sq-force-2{
+     min-height: 2rem;
+     max-height: 2rem;
+ }
