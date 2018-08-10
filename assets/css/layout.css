@@ -13,14 +13,14 @@
 }
 .sq-page{
   display: grid;
-  grid-template-rows: 15% 1fr 5%;
+  grid-template-rows: 6rem 1fr ;
   grid-template-columns: 1
 }
 .sq-nav-area{
   grid-area: 1 / 1 / 2 / 2;}
 
 .sq-navbar-layout{
-  grid-template-rows: 5vh 5vh 5vh;
+  grid-template-rows: 2rem 2rem 2rem;
   grid-template-columns: 1fr;
 }
 .sq-grid-navbar{
