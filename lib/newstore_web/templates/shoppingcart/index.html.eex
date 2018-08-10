@@ -1,9 +1,10 @@
-<h1>Shoppingcart </h1>
-<div class="sq-flex sq-justify-center sq-air-b-1 sq-air-r-custom sq-air-t-20">
-    <button>Checkout</button>
+<br><br>
+<div class="sq-flex sq-justify-center">
+  <h1>Shoppingcart</h1>
 </div>
-<section class="sq-air-r-40">
-  <div class="sq-border-1 sq-width-70p">
+<br><br>
+<section class="sq-flex sq-justify-center">
+  <div class="sq-border-1 sq-width-70p sq-flex">
   <table class="sq-border-collapse sq-width-100p">
     <tr>
       <th>Image</th>
@@ -12,36 +13,36 @@
       <th>price</th>
       <th>Total Price</th>
       <th>delete</th>
-      <th></th>
+      <th><button>Checkout</button></th>
     </tr>
     <tr>
       <td><br></td>
     </tr>
     <tr>
-      <td class="sq-border-1"><img src="/images/userr.png" alt="" height="100" width="100"></td>
+      <td class="sq-border-1 sq-justify-center"><img src="/images/userr.png" alt="" height="50" width="50"></td>
       <td class="sq-border-1">Red Cup</td>
       <td class="sq-border-1">2</td>
       <td class="sq-border-1">15 Nok</td>
-      <td class="sq-border-1">30 Nok</td>
+      <td class="sq-border-1"><input class="sq-width-30em" onblur="findTotal()" type="text" name="sq-qty" id="sq-qty1"/> Nok</td>
       <td class="sq-border-1">
         <button>Delete</button>
       </td>
     </tr>
     <tr>
-      <td class="sq-border-1"><img src="/images/userr.png" alt="" height="100" width="100"></td>
+      <td class="sq-border-1"><img src="/images/userr.png" alt="" height="50" width="50"></td>
       <td class="sq-border-1">blue Cup</td>
       <td class="sq-border-1">1</td>
       <td class="sq-border-1">17 Nok</td>
-      <td class="sq-border-1">17 Nok</td>
+      <td class="sq-border-1"><input class="sq-width-30em" onblur="findTotal()" type="text" name="sq-qty" id="sq-qty2"/> Nok</td>
       <td class="sq-border-1">
         <button>Delete</button>
     </tr>
     <tr>
-      <td class="sq-border-1"><img src="/images/userr.png" alt="" height="100" width="100"></td>
+      <td class="sq-border-1"><img src="/images/userr.png" alt="" height="50" width="50"></td>
       <td class="sq-border-1">Green Cup</td>
       <td class="sq-border-1">5</td>
       <td class="sq-border-1">10 Nok</td>
-      <td class="sq-border-1">50 Nok</td>
+      <td class="sq-border-1"><input class="sq-width-30em" onblur="findTotal()" type="text" name="sq-qty" id="sq-qty3"/> Nok</td>
       <td class="sq-border-1">
         <button>Delete</button>
     </tr>
@@ -54,14 +55,37 @@
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
-      <td class="sq-border-1">Sum  97 Nok</td>
+      <td><button>Checkout</button></td>
+      <td class="sq-border-1"><input class="sq-width-30em" type="text" id="sq-total"/> Nok</td>
     </tr>
     <tr>
     </tr>
   </table>
   </div>
 </section>
-<div class="sq-flex sq-justify-center sq-air-t-10 sq-air-r-custom">
+<%# <div class="sq-flex sq-justify-center sq-air-t-10 sq-air-r-custom">
     <button>Checkout</button>
-</div>
+</div> %>
+<script>
+//Total price (after amount and price - til total amount at the end)
+  function findTotal(){
+    var arr = document.getElementsByName("sq-qty"); //are connected to input through sq-qty
+    var tot=0; //starting value is 0
+    for(var i=0;i<arr.length;i++){ //start 0, increase by 1 
+        if(parseInt(arr[i].value)) //parse glue it together if a value are made
+            tot += parseInt(arr[i].value);  //0 + the glued value
+    }
+    document.getElementById("sq-total").value = tot; //show in element with total id as the value found in Tot
+}
+
+//amount and price into total price
+ function findTotalprice(){
+    var arr2 = document.getElementsByName("sq-tot-price"); //are connected to input through sq-tot-price
+    var tot2=0; //starting value is 0
+    for(var i=0;i<arr2.length;i++){ //start 0, increase by 1 
+        if(parseInt(arr2[i].value)) //parse glue it together if a value are made
+            tot += parseInt(arr2[i].value);  //0 + the glued value
+    }
+    document.getElementById("sq-total").value = tot2; //show in element with total id as the value found in Tot
+}
+</script>
