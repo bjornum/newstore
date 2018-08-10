@@ -25,11 +25,24 @@
   padding:0.2em;
 }
 /* Class used with the JS function to toggle hide/show content */
-.sq-show-dropdown-content{
+.sq-show-dropdown-content {
   display:block;
 }
 /* Onhover effect on the links inside the dropdown content */
 .sq-nav-dropdown-content a:hover{background-color: var(--secondary);}
 .sq-nav-dropdown:hover .sq-nav-dropdown-content{
     display: block;
+}
+.sq-nav-dropdown:hover .sq-nav-dropdown-content-right{
+display: block;
+}
+
+.sq-nav-dropdown-content-right {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+	right: 0;
 }

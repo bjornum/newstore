@@ -40,16 +40,7 @@
           <div class="sq-flex-1 sq-text-right"></div>
           <!--SignIn button end -->
           <!--ShoppingCart button -->
-          <button class="sq-nav-dropdown">
-						<svg id="i-cart" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-							<path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
-							<circle cx="25" cy="27" r="2" />
-							<circle cx="12" cy="27" r="2" />
-						</svg>
-						<div class=" sq-secondary sq-nav-dropdown-content">
-              adfggfsdgfshsdf
-            </div>
-						</button>
+
           <!--ShoppingCart button end -->
         </div>
         <!-- Navbar part 3/3-->
@@ -59,9 +50,26 @@
             <a href="/Products">Products</a>
             <a href="Products">Best selgere</a>
             <a href="Products">Kampanje</a>
+            <button class="sq-nav-dropdown" style="position:absolute; right:0">
+              <svg id="i-cart" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
+                <circle cx="25" cy="27" r="2" />
+                <circle cx="12" cy="27" r="2" />
+              </svg>
+              <div class=" sq-secondary sq-nav-dropdown-content-right">
+                <div class="sq-card">
+                  <h3>Hey</h3>
+                  <h3>This</h3>
+                  <h3>is</h3>
+                  <h3>a</h3>
+                  <h3>Test</h3>
+                </div>
+              </div>
+              </button>
+
           </div>
-        </div>
       </div>
+
     </nav>
     <!--NavBar end-->
     <!-- Main content start -->
