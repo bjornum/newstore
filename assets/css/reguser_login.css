@@ -1,0 +1,107 @@
+#sq-reguser-regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+  
+  .sq-reguser-myinput {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #aaaaaa;
+  }
+  
+  .sq-reguser-myinput.invalid {
+    background-color:yellow;
+  }
+  
+  .tab {
+    display: none;
+  }
+  
+  .sq-reguser-step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none; 
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .sq-reguser-step.active {
+    opacity: 1;
+  }
+  
+  .sq-reguser-step.finish {
+    background-color: #4CAF50;
+  }
+#sq-reguser-message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#sq-reguser-message p {
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.sq-reguser-invalid {
+    color: red;
+}
+
+.sq-reguser-invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+.sq-reguser-valid {
+    color: green;
+}
+
+.sq-reguser-valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+#sq-reguser-input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.sq-reguser-myinput[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sq-reguser-container {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+#sq-reguser-message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#sq-reguser-message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
