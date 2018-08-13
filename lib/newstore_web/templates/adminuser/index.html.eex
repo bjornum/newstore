@@ -6,25 +6,25 @@
   <button>Search</button>
   <section>
   <!--Info-->
-    <div id="sq-modal-info" class="sq-modal">
-      <div class="sq-modal-content">
+    <div  id="sq-modal-info" class="sq-modal">
+      <div style="width: 50%; height:50%;" class="sq-modal-content">
         <input hidden id="userID" value="">
-        <span class="iclose">&times;</span>
+        <span class="iclose sq-close">&times;</span>
         <p class="name">Paragraph 1</p>
-        <p>Paragraph 1</p>
-        <p>Paragraph 1</p>
-        <p>Paragraph 1</p>
+        <p>placeholder 1</p>
+        <p>placeholder 2</p>
+        <p>placeholder 3</p>
       </div>
     </div>
     <!--Shopping-->
     <div id="sq-modal-shopping" class="sq-modal">
-      <div class="sq-modal-content">
+      <div style="width:50%; height:50%;" class="sq-modal-content">
         <input hidden id="userID" value="">
-        <span class="shclose">&times;</span>
+        <span class="shclose sq-close">&times;</span>
         <p class="name">Paragraph 1</p>
-        <p>Paragraph 1</p>
-        <p>Paragraph 1</p>
-        <p>Paragraph 1</p>
+        <p>placeholder 1</p>
+        <p>placeholder 2</p>
+        <p>placeholder 3</p>
       </div>
     </div>
   </section>

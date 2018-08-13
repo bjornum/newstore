@@ -32,4 +32,6 @@
     box-shadow: 1px 1px 1px 1px #0c0c0c;
   }
 
+
   .sq-button1:hover {background-color: var(--primary-highlight)}
+

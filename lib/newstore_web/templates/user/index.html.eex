@@ -2,11 +2,6 @@
   <div class="sq-panel-main-top sq-padding-1">
     <h1>Jane Doe</h1>
       <div class="">
-        <ul>
-          <li>Adresse:</li>
-          <li>Telefon:</li>
-          <li>Epostadresse:</li>
-        </ul>
         <div class="">
           <button class="sq-admin-user-info">Endre Informasjon</button>
             <div id="sq-modal-info" class="sq-modal">
@@ -19,7 +14,9 @@
                   <input type="text" placeholder="Adresse...">
                   <input type="text" placeholder="Faktura-Adresse">
                   <input type="text" placeholder="Telefon...">
-                  <input type="submit" value="Submit" class="sq-btn-primary">
+                  <a href="#">
+                    <button type="button" name="">Submit</button>
+                  </a>
                 </form>
               </div>
             </div>
@@ -78,17 +75,18 @@
   var info = document.getElementsByClassName("sq-admin-user-info");
   for (shs of info) { //Iterates through HTML DOM elements
       shs.onclick =  (el) => { //applies function to onclick event on iterated element
-        imodal.style.display = "block";
+        var userName = el.target.querySelector;
+            imodal.style.visibility = "visible";
     }
   }
 
   // Get the <span> element that closes the modal start
 //info
   var ispan = document.getElementsByClassName("iclose")
-  for (shs of ispan) { //Iterates through HTML DOM elements
-      shs.onclick =  (el) => { //applies function to onclick event on iterated element
-        el.target.parentElement.parentElement.parentElement.style.display = "none"; //elevates itself from shclose-button to modal element, then sets display to none.
+    for (shs of ispan) { //Iterates through HTML DOM elements
+        shs.onclick =  (el) => { //applies function to onclick event on iterated element
+            el.target.parentElement.parentElement.parentElement.style.visibility = "hidden"; //elevates itself from shclose-button to modal element, then sets display to none.
+        }
     }
-  }
 
 </script>

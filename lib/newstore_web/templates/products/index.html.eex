@@ -95,10 +95,10 @@
 
     // Button id that opens the modal start
     //Info
-    var info = document.getElementsByClassName("sq-admin-user-info");
+    var info = document.getElementsByClassName("sq-landing-card");
     for (shs of info) { //Iterates through HTML DOM elements
         shs.onclick =  (el) => { //applies function to onclick event on iterated element
-            var userName = el.target.parentElement.parentElement.parentElement.parentElement.parentElement.querySelector;
+            var userName = el.target.querySelector;
             imodal.style.visibility = "visible";
         }
     }
