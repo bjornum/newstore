@@ -17,7 +17,7 @@
     <!-- Example,    -->
     <tr id="asdasd">
       <td class="sq-border-1 sq-padding-05 sq-width-10p sq-bold">Rød Kopp</td>
-      <td class="sq-border-1 sq-padding-05">always it was the red kopp lel a mother once knew a son. the father of the son took the son to the mountains to the cabin and went fishing. they never came back, so the mother of the son started making cups.</td>
+      <td class="sq-border-1 sq-padding-05">A red cup with the brand of its producer</td>
       <td class="sq-border-1 sq-padding-05 " >100</td>
       <td class="sq-border-1 sq-padding-05">
         <input class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
