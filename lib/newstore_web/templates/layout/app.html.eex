@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 </head>
 
-<body class="sq-viewport" style="margin: 0;">
+<body class="sq-viewport">
   <!-- Grid start -->
   <div class="sq-page">
     <!--NavBar start-->
@@ -26,18 +26,19 @@
           </div>
         </div>
         <!--NavBar part 2/3-->
-        <div class="sq-navbar-domain sq-secondary sq-flex sq-force-2 sq-justify-evenly sq-shadow-lg ">
-          <a href="/" class="sq-text-white sq-secondary">Home!</a>
-          <div class="sq-flex"></div>
+        <div class="sq-navbar-domain sq-secondary sq-flex sq-force-2 sq-justify-around">
+          
+          <div class="sq-flex sq-force-left" style="margin-left: 1em; font-weight: bold;"><a href="/" class="sq-text-white sq-secondary">Home!</a></div>
           <!-- SearchBar -->
-          <div class=" sq-flex sq-justify-center sq-align-center sq-width-300em sq-form sq-border-collapse" style="margin-left: 40em;">
+          <div class=" sq-flex sq-justify-center sq-width-300em sq-form  sq-height-80p">
            <input type="text" placeholder="Search" name="search" class="sq-air-r-05" style="background-color: #dff0d8;">
             <button class="sq-button1" style="height: 100%; border-radius: 0px 5px 5px 0px;" type="submit">Search</button>
           </div>
           <!--SearchBar end-->
           <!--SignIn button -->
+          <div class="sq-flex sq-flex-row sq-force-right" style="margin-right: 1em;">
           <div class="sq-text-center">
-            <button class="sq-button1" onclick="toggleModal('myModal')" style="margin-right: 0; margin-top: 0; background-color: var(--secondary-highlight)">Login/Register</button>
+            <button class="sq-button1 sq-height-80p" onclick="toggleModal('myModal')" style=" margin-right: 1em; margin-top: 0; background-color: var(--secondary-highlight)">Login/Register</button>
 
 
             <div class="sq-modal" id="myModal">
@@ -81,7 +82,7 @@
           </div>
           <!--SignIn button end -->
           <!--ShoppingCart button -->
-          <button class="sq-nav-dropdown sq-button1">
+          <button class="sq-nav-dropdown sq-button1 sq-height-80p" style=" ">
             <svg id="i-cart" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
               <path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
               <circle cx="25" cy="27" r="2" />
@@ -122,6 +123,7 @@
             </div>
           </button>
           <!--ShoppingCart button end -->
+          </div>
         </div>
         <!-- Navbar part 3/3-->
         <div class="sq-navbar-links sq-secondary-highlight sq-text-center sq-force-2 sq-border-nav">
