@@ -17,7 +17,6 @@ defmodule NewstoreWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-    get "/product", ProductController, :index
     get "/shoppingcart", ShoppingcartController, :index
     get "/products", ProductsController, :index
     get "/storage", StorageController, :index
