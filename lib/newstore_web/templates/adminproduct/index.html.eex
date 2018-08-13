@@ -11,8 +11,8 @@
       <th>Price</th>
       <th>total $$$</th>
       <th>Imported from</th>
-      <th>Delete/Update</th>
       <th>To Storage</th>
+      <th>Delete</th>
     </tr>
     <!-- Example,    -->
     <tr id="asdasd">
@@ -20,17 +20,16 @@
       <td class="sq-border-1 sq-padding-05">A red cup with the brand of its producer</td>
       <td class="sq-border-1 sq-padding-05 " >100</td>
       <td class="sq-border-1 sq-padding-05">
-        <input class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button onclick="getPrice(this)">Enter</button></td>
+      <button>Update</button></td>
       <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05 sq-width-10p">norway cups dot com</td>
+      <td class="sq-border-1 sq-padding-05 sq-width-10p">Cup-Designer.com</td>
       <td class="sq-border-1 sq-padding-05 sq-width-10p">
-        <button>Update</button>
-        <button>Delete</button>
+        <a href="/storage"><button>Storage</button></a>
       </td>
       <td class="sq-border-1 sq-padding-05">
-        <a href="/storage"><button>Storage</button></a>
+        <button>Delete</button>
       </td>
     </tr>
     <tr id="asdasd1">
@@ -38,17 +37,16 @@
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
-        <input class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button onclick="getPrice(this)">Enter</button></td>
+      <button>Update</button></td>
       <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
-        <button>Update</button>
-        <button>Delete</button>
+        <a href="/storage"><button>Storage</button></a>
       </td>
       <td class="sq-border-1 sq-padding-05">
-        <a href="/storage"><button>Storage</button></a>
+        <button>Delete</button>
       </td>
     </tr>
     <tr id="asdasd2">
@@ -56,17 +54,16 @@
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
-        <input class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button onclick="getPrice(this)">Enter</button></td>
+      <button>Update</button></td>
       <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
-        <button>Update</button>
-        <button>Delete</button>
+        <a href="/storage"><button>Storage</button></a>
       </td>
       <td class="sq-border-1 sq-padding-05">
-        <a href="/storage"><button>Storage</button></a>
+        <button>Delete</button>
       </td>
     </tr>
     <tr id="asdasd3">
@@ -74,17 +71,16 @@
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
-        <input class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button onclick="getPrice(this)">Enter</button></td>
+      <button>Update</button></td>
       <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
-        <button>Update</button>
-        <button>Delete</button>
+        <a href="/storage"><button>Storage</button></a>
       </td>
       <td class="sq-border-1 sq-padding-05">
-        <a href="/storage"><button>Storage</button></a>
+        <button>Delete</button>
       </td>
     </tr>
     <tr id="asdasd4">
@@ -92,17 +88,16 @@
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
-        <input class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button onclick="getPrice(this)">Enter</button></td>
+      <button>Update</button></td>
       <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
-        <button>Update</button>
-        <button>Delete</button>
+        <a href="/storage"><button>Storage</button></a>
       </td>
       <td class="sq-border-1 sq-padding-05">
-        <a href="/storage"><button>Storage</button></a>
+        <button>Delete</button>
       </td>
     </tr>
   </table>
