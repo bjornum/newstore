@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <title>Hello Newstore!</title>
   <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 </head>
@@ -21,7 +20,6 @@
         <div class="sq-navbar-nav sq-secondary sq-text-right sq-force-2">
           <!-- Links -->
           <div class=" sq-flex sq-air-x-05 sq-justify-evenly">
-
             <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Sign up for our newsletter</a>
             <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Welcome to out Store!</a>
             <a href="#" class="sq-text-white sq-secondary ">Contact us</a>
@@ -32,15 +30,15 @@
           <a href="/" class="sq-text-white sq-secondary">Home!</a>
           <div class="sq-flex"></div>
           <!-- SearchBar -->
-          <div class=" sq-justify-center sq-align-center sq-width-300em sq-form">
-            <input type="text" placeholder="Search..." name="search" class="sq-air-r-05 ">
+          <div class=" sq-flex sq-justify-center sq-align-center sq-width-300em sq-form sq-border-collapse" style="margin-left: 40em;">
+           <input type="text" placeholder="Search" name="search" class="sq-air-r-05" style="background-color: #dff0d8;">
+            <button class="sq-button1" style="height: 100%; border-radius: 0px 5px 5px 0px;" type="submit">Search</button>
           </div>
           <!--SearchBar end-->
           <!--SignIn button -->
           <div class="sq-text-center">
-            <button class="sq-button1" onclick="toggleModal('myModal')" style="margin-right: 0; margin-top: 0;">Login/Register</button>
+            <button class="sq-button1" onclick="toggleModal('myModal')" style="height: 100%; margin-left: 30em;">Login / Register</button>
             <div class="sq-modal" id="myModal">
-
               <div class="sq-modal-content" style="width: 20em; height: 12em;">
                 <header>
                   <span class="sq-close" onclick="toggleModal('myModal')">&times;</span>
@@ -79,8 +77,9 @@
             }
             </script>
           </div>
-
-          <button class="sq-nav-dropdown sq-button1" style="position:absolute; right:8rem;">
+          <!--SignIn button end -->
+          <!--ShoppingCart button -->
+          <button class="sq-nav-dropdown sq-button1">
             <svg id="i-cart" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
               <path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
               <circle cx="25" cy="27" r="2" />
@@ -120,9 +119,6 @@
               </div>
             </div>
           </button>
-          <!--SignIn button end -->
-          <!--ShoppingCart button -->
-
           <!--ShoppingCart button end -->
         </div>
         <!-- Navbar part 3/3-->
@@ -134,17 +130,13 @@
             <a href="#">Kampanje</a>
           </div>
         </div>
-
+      </div>
       </nav>
       <!--NavBar end-->
       <!-- Main content start -->
       <main class="sq-main">
         <%= render @view_module, @view_template, assigns %>
       </main>
-      <!-- Main content end -->
-      <!-- Footer start -->
-
-      <!-- Footer end -->
     </div>
     <!-- Grid end-->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
