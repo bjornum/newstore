@@ -55,13 +55,11 @@
                         <label>Password</label>
                         <input type="password" name="" value="" placeholder="Password">
                         <div class="sq-flex-container-middle">
-                          <a href="#">
-                            <div class="sq-force-left">
-                              <a href="/page">
-                                <button type="submit" name="">Login</button>
-                              </a>
-                            </div>
-                          </a>
+                          <div class="sq-force-left">
+                            <a href="#">
+                              <button type="button" name="">Login</button>
+                            </a>
+                          </div>
                           <a href="/reguser">
                             <div class="sq-force-right">
                               <button type="button" name="">New user</button>
