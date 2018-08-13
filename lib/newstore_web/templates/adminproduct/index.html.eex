@@ -24,7 +24,7 @@
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
       <button onclick="getPrice(this)">Enter</button></td>
       <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05 sq-width-10p">norway cups dot com</td>
+      <td class="sq-border-1 sq-padding-05 sq-width-10p">Cup-Designer.com</td>
       <td class="sq-border-1 sq-padding-05 sq-width-10p">
         <button>Update</button>
         <button>Delete</button>
