@@ -58,11 +58,16 @@
               </svg>
               <div class=" sq-secondary sq-nav-dropdown-content-right">
                 <div class="sq-card">
-                  <h3>Hey</h3>
+                  <div class="sq-flex">
+                    <img class="sq-border-1" style="min-width:75px; max-width:75px; max-height:75px; min-height:75px;"></img>
+                    <h3>Pris:</h3>
+                    <h3>a hundred million dollars</h3>
+                  </div>
                   <h3>This</h3>
                   <h3>is</h3>
                   <h3>a</h3>
                   <h3>Test</h3>
+                  <p  >Go to shopping cart</p>
                 </div>
               </div>
               </button>
