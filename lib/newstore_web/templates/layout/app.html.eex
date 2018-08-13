@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 </head>
 
-<body style="margin: 0;">
+<body class="sq-viewport" style="margin: 0;">
   <!-- Grid start -->
   <div class="sq-page">
     <!--NavBar start-->
@@ -54,8 +54,8 @@
                       <div class="sq-flex-container-middle">
                         <a href="#">
                           <div class="sq-force-left">
-                            <a href="/page">
-                              <button type="submit" name="">Login</button>
+                            <a href="#">
+                              <button type="button" name="">Login</button>
                             </a>
                           </div>
                         </a>
@@ -139,6 +139,7 @@
       </main>
     </div>
     <!-- Grid end-->
-    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+    <script src="<%= static_path(@conn, "/js/app.js") %>">
+    </script>
   </body>
   </html>
