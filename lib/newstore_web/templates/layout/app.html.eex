@@ -90,10 +90,10 @@
         <!-- Navbar part 3/3-->
         <div class="sq-navbar-links sq-secondary-highlight sq-text-center sq-force-2 sq-t-border-3">
           <div class="sq-nav-btn-group sq-flex sq-justify-evenly">
-            <a href="/categories">Categories</a>
-            <a href="/Products">Products</a>
-            <a href="Products">Best selgere</a>
-            <a href="Products">Kampanje</a>
+            <a href="#">Categories</a>
+            <a href="#">Products</a>
+            <a href="#">Best selgere</a>
+            <a href="#">Kampanje</a>
           </div>
         </div>
       </div>
