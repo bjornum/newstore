@@ -26,11 +26,10 @@
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #72767b;
+    background-color: var(--secondary-highlight);
     border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px #0c0c0c;
   }
   
-  .sq-button1:hover {background-color: #393f44}
-  
+  .sq-button1:hover {background-color: var(--primary-highlight)}

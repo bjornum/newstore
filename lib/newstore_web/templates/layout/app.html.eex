@@ -37,22 +37,24 @@
           <!--SearchBar end-->
           <!--SignIn button -->
           <div class="sq-text-center">
-            <button class="sq-button1" onclick="toggleModal('myModal')" style="height: 100%; margin-left: 30em;">Login / Register</button>
+            <button class="sq-button1" onclick="toggleModal('myModal')" style="margin-right: 0; margin-top: 0; background-color: var(--secondary-highlight)">Login/Register</button>
+
+
             <div class="sq-modal" id="myModal">
-              <div class="sq-modal-content" style="width: 20em; height: 12em;">
-                <header>
-                  <span class="sq-close" onclick="toggleModal('myModal')">&times;</span>
-                </header>
-                <section>
-                  <form class="sq-form sq-text-base" action="index.html" method="post">
-                    <fieldset>
-                      <legend>Login</legend>
-                      <label>Email</label>
-                      <input type="email" name="" value="" placeholder="E-mail">
-                      <label>Password</label>
-                      <input type="password" name="" value="" placeholder="Password">
-                      <div class="sq-flex-container-middle">
-                        <a href="#">
+
+                <div class="sq-modal-content" style="width: 20em; height: 12em;">
+                  <header>
+                    <span class="sq-close" onclick="toggleModal('myModal')">&times;</span>
+                  </header>
+                  <section>
+                    <form class="sq-form sq-text-base" action="index.html" method="post">
+                      <fieldset>
+                        <legend>Login</legend>
+                        <label>Email</label>
+                        <input type="email" name="" value="" placeholder="E-mail">
+                        <label>Password</label>
+                        <input type="password" name="" value="" placeholder="Password">
+                        <div class="sq-flex-container-middle">
                           <div class="sq-force-left">
                             <a href="#">
                               <button type="button" name="">Login</button>
@@ -122,7 +124,7 @@
           <!--ShoppingCart button end -->
         </div>
         <!-- Navbar part 3/3-->
-        <div class="sq-navbar-links sq-secondary-highlight sq-text-center sq-force-2 sq-t-border-3">
+        <div class="sq-navbar-links sq-secondary-highlight sq-text-center sq-force-2 sq-border-nav">
           <div class="sq-nav-btn-group sq-flex sq-justify-evenly">
             <a href="#">Categories</a>
             <a href="/products">Products</a>
