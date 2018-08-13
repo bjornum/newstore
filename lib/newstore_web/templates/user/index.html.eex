@@ -2,11 +2,6 @@
   <div class="sq-panel-main-top sq-padding-1">
     <h1>Jane Doe</h1>
       <div class="">
-        <ul>
-          <li>Adresse:</li>
-          <li>Telefon:</li>
-          <li>Epostadresse:</li>
-        </ul>
         <div class="">
           <button class="sq-admin-user-info">Endre Informasjon</button>
             <div id="sq-modal-info" class="sq-modal">
@@ -19,7 +14,9 @@
                   <input type="text" placeholder="Adresse...">
                   <input type="text" placeholder="Faktura-Adresse">
                   <input type="text" placeholder="Telefon...">
-                  <input type="submit" value="Submit" class="sq-btn-primary">
+                  <a href="#">
+                    <button type="button" name="">Submit</button>
+                  </a>
                 </form>
               </div>
             </div>
