@@ -22,9 +22,9 @@
           <!-- Links -->
           <div class=" sq-flex sq-air-x-05 sq-justify-evenly">
 
-          <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Sign up for our newsletter</a>
-          <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Welcome to out Store!</a>
-          <a href="#" class="sq-text-white sq-secondary ">Contact us</a>
+            <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Sign up for our newsletter</a>
+            <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Welcome to out Store!</a>
+            <a href="#" class="sq-text-white sq-secondary ">Contact us</a>
           </div>
         </div>
         <!--NavBar part 2/3-->
@@ -40,47 +40,86 @@
           <div class="sq-text-center">
             <button class="sq-button1" onclick="toggleModal('myModal')" style="margin-right: 0; margin-top: 0;">Login/Register</button>
             <div class="sq-modal" id="myModal">
-                
-                <div class="sq-modal-content" style="width: 20em; height: 12em;">
-                  <header>
-                    <span class="sq-close" onclick="toggleModal('myModal')">&times;</span>
-                  </header>
-                  <section>
-                    <form class="sq-form sq-text-base" action="index.html" method="post">
-                      <fieldset>
-                        <legend>Login</legend>
-                        <label>Email</label>
-                        <input type="email" name="" value="" placeholder="E-mail">
-                        <label>Password</label>
-                        <input type="password" name="" value="" placeholder="Password">
-                        <div class="sq-flex-container-middle">
-                          <a href="#">
-                            <div class="sq-force-left">
-                              <a href="/page">
-                                <button type="submit" name="">Login</button>
-                              </a>
-                            </div>
-                          </a>
-                          <a href="/reguser">
-                            <div class="sq-force-right">
-                              <button type="button" name="">New user</button>
-                            </div>
-                          </a>
-                        </div>
-                      </fieldset>
-                    </form>
-                  </section>
-                </div>
+
+              <div class="sq-modal-content" style="width: 20em; height: 12em;">
+                <header>
+                  <span class="sq-close" onclick="toggleModal('myModal')">&times;</span>
+                </header>
+                <section>
+                  <form class="sq-form sq-text-base" action="index.html" method="post">
+                    <fieldset>
+                      <legend>Login</legend>
+                      <label>Email</label>
+                      <input type="email" name="" value="" placeholder="E-mail">
+                      <label>Password</label>
+                      <input type="password" name="" value="" placeholder="Password">
+                      <div class="sq-flex-container-middle">
+                        <a href="#">
+                          <div class="sq-force-left">
+                            <a href="/page">
+                              <button type="submit" name="">Login</button>
+                            </a>
+                          </div>
+                        </a>
+                        <a href="/reguser">
+                          <div class="sq-force-right">
+                            <button type="button" name="">New user</button>
+                          </div>
+                        </a>
+                      </div>
+                    </fieldset>
+                  </form>
+                </section>
+              </div>
             </div>
             <script>
-              function toggleModal(id) {
-                var modal = document.getElementById(id);
-                modal.classList.toggle("sq-show-modal");
-              }
+            function toggleModal(id) {
+              var modal = document.getElementById(id);
+              modal.classList.toggle("sq-show-modal");
+            }
             </script>
-
-
           </div>
+
+          <button class="sq-nav-dropdown sq-button1" style="position:absolute; right:8rem;">
+            <svg id="i-cart" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+              <path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
+              <circle cx="25" cy="27" r="2" />
+              <circle cx="12" cy="27" r="2" />
+            </svg>
+            <div class=" sq-secondary sq-nav-dropdown-content-right">
+              <div class="sq-card">
+                <div class="sq-flex sq-justify-evenly">
+                  <img class="sq-border-1" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                  <p>Pris:</p>
+                  <p>500-,</p>
+                </div>
+                <div class="sq-flex sq-justify-evenly">
+                  <img class="sq-border-1" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                  <p>Pris:</p>
+                  <p>500-,</p>
+                </div>
+                <div class="sq-flex sq-justify-evenly">
+                  <img class="sq-border-1" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                  <p>Pris:</p>
+                  <p>500-,</p>
+                </div>
+                <div class="sq-flex sq-justify-evenly">
+                  <img class="sq-border-1" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                  <p>Pris:</p>
+                  <p>500-,</p>
+                </div>
+                <div class="sq-flex sq-justify-evenly">
+                  <img class="sq-border-1" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                  <p>Pris:</p>
+                  <p>500-,</p>
+                </div>
+                <div class="sq-force-right">
+                  <p>Sum: 2500-,</p>
+                </div>
+                <a class="sq-secondary" href="/shoppingcart">To shoppingcart</a>
+              </div>
+            </div>
+          </button>
           <!--SignIn button end -->
           <!--ShoppingCart button -->
 
@@ -93,43 +132,21 @@
             <a href="/Products">Products</a>
             <a href="Products">Best selgere</a>
             <a href="Products">Kampanje</a>
-            <button class="sq-nav-dropdown" style="position:absolute; right:0">
-              <svg id="i-cart" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                <path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
-                <circle cx="25" cy="27" r="2" />
-                <circle cx="12" cy="27" r="2" />
-              </svg>
-              <div class=" sq-secondary sq-nav-dropdown-content-right">
-                <div class="sq-card">
-                  <div class="sq-flex">
-                    <img class="sq-border-1" style="min-width:75px; max-width:75px; max-height:75px; min-height:75px;"></img>
-                    <h3>Pris:</h3>
-                    <h3>a hundred million dollars</h3>
-                  </div>
-                  <h3>This</h3>
-                  <h3>is</h3>
-                  <h3>a</h3>
-                  <h3>Test</h3>
-                  <p  >Go to shopping cart</p>
-                </div>
-              </div>
-              </button>
-
           </div>
-      </div>
+        </div>
 
-    </nav>
-    <!--NavBar end-->
-    <!-- Main content start -->
-    <main class="sq-main">
-      <%= render @view_module, @view_template, assigns %>
-    </main>
-    <!-- Main content end -->
-    <!-- Footer start -->
+      </nav>
+      <!--NavBar end-->
+      <!-- Main content start -->
+      <main class="sq-main">
+        <%= render @view_module, @view_template, assigns %>
+      </main>
+      <!-- Main content end -->
+      <!-- Footer start -->
 
-    <!-- Footer end -->
-  </div>
-  <!-- Grid end-->
-  <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
-</body>
-</html>
+      <!-- Footer end -->
+    </div>
+    <!-- Grid end-->
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+  </html>
