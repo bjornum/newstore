@@ -63,7 +63,7 @@
 
 /* Border bottom only Start */          /*   !  Solid Only  ! */
 .sq-b-border{border-bottom: 1px solid;}
-.sq-b-border-3{border-bottom: 3px solid;}
+.sq-b-border-3{border-bottom: 3px black solid;}
 .sq-b-border-5{border-bottom: 5px solid;}
 
 /* Border Left side Only Start */          /*   !  Solid Only  ! */
@@ -232,6 +232,7 @@
 .sq-width-70em {width: 7em   ;}
 .sq-width-75em {width: 7.5em ;}
 .sq-width-80em {width: 8em   ;}
+.sq-width-300em {width: 30em; }
 
 /* height in em */
 

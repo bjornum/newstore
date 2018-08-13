@@ -29,16 +29,16 @@
           </div>
         </div>
         <!--NavBar part 2/3-->
-        <div class="sq-navbar-domain sq-secondary sq-flex sq-force-2 ">
+        <div class="sq-navbar-domain sq-secondary sq-flex sq-force-2 sq-justify-evenly sq-shadow-lg ">
           <a href="/" class="sq-text-white sq-secondary">Home!</a>
-          <div class="sq-flex-1"></div>
+          <div class="sq-flex"></div>
           <!-- SearchBar -->
-          <div class="sq-flex-auto sq-form">
+          <div class=" sq-justify-center sq-align-center sq-width-300em sq-form">
             <input type="text" placeholder="Search..." name="search" class="sq-air-r-05 ">
           </div>
           <!--SearchBar end-->
           <!--SignIn button -->
-          <div class="sq-flex-1 sq-text-center">
+          <div class="sq-text-center">
             <button class="sq-button1" onclick="toggleModal('myModal')" style="margin-right: 0; margin-top: 0;">Login/Register</button>
             <div class="sq-modal" id="myModal">
                 
@@ -88,7 +88,7 @@
           <!--ShoppingCart button end -->
         </div>
         <!-- Navbar part 3/3-->
-        <div class="sq-navbar-links sq-secondary-highlight sq-text-center sq-force-2">
+        <div class="sq-navbar-links sq-secondary-highlight sq-text-center sq-force-2 sq-t-border-3">
           <div class="sq-nav-btn-group sq-flex sq-justify-evenly">
             <a href="/categories">Categories</a>
             <a href="/Products">Products</a>
