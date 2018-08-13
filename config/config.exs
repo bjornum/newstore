@@ -22,6 +22,14 @@ config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:user_id]
 
+
+  config :prios, Prios.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  database: "newstore_dev",
+  username: "postgres",
+  password: "postgres",
+  hostname: "localhost"
+config :prios, ecto_repos: [Prios.Repo]
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env}.exs"
