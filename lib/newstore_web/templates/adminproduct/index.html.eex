@@ -22,7 +22,7 @@
       <td class="sq-border-1 sq-padding-05">
         <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button>Update</button></td>
+      <button onclick="getPrice(this)">Update</button></td>
       <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
       <td class="sq-border-1 sq-padding-05 sq-width-10p">Cup-Designer.com</td>
       <td class="sq-border-1 sq-padding-05 sq-width-10p">
@@ -39,7 +39,7 @@
       <td class="sq-border-1 sq-padding-05">
         <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button>Update</button></td>
+      <button onclick="getPrice(this)">Update</button></td>
       <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
@@ -56,7 +56,7 @@
       <td class="sq-border-1 sq-padding-05">
         <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button>Update</button></td>
+      <button onclick="getPrice(this)">Update</button></td>
       <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
@@ -73,7 +73,7 @@
       <td class="sq-border-1 sq-padding-05">
         <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button>Update</button></td>
+      <button onclick="getPrice(this)">Update</button></td>
       <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
@@ -90,7 +90,7 @@
       <td class="sq-border-1 sq-padding-05">
         <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button>Update</button></td>
+      <button onclick="getPrice(this)">Update</button></td>
       <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
       <td class="sq-border-1 sq-padding-05"></td>
       <td class="sq-border-1 sq-padding-05">
