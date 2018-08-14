@@ -13,24 +13,34 @@
   <section>
   <!--Info-->
     <div  id="sq-modal-info" class="sq-modal">
-      <div style="width: 50%; height:50%;" class="sq-modal-content">
+      <div class="sq-modal-content">
         <input hidden id="userID" value="">
         <span class="iclose sq-close">&times;</span>
-        <p class="name">Paragraph 1</p>
-        <p>placeholder 1</p>
-        <p>placeholder 2</p>
-        <p>placeholder 3</p>
+        <h1 class="sq-text-center">User Info</h1>
+        <h3 class="name">Paragraph 1</h3>
+        <input type="text" placeholder="User id...">
+        <input type="text" placeholder="Adresse...">
+        <input type="text" placeholder="Faktura-Adresse">
+        <input type="text" placeholder="Telefon...">
+        <a href="#">
+          <button type="button" name="">Submit</button>
+        </a>
       </div>
     </div>
     <!--Shopping-->
     <div id="sq-modal-shopping" class="sq-modal">
-      <div style="width:50%; height:50%;" class="sq-modal-content">
+      <div class="sq-modal-content">
         <input hidden id="userID" value="">
         <span class="shclose sq-close">&times;</span>
-        <p class="name">Paragraph 1</p>
-        <p>placeholder 1</p>
-        <p>placeholder 2</p>
-        <p>placeholder 3</p>
+        <h1 class="sq-text-center">Shopping History</h1>
+        <h3 class="name">Paragraph 1</h3>
+        <input type="text" placeholder="User id...">
+        <input type="text" placeholder="Adresse...">
+        <input type="text" placeholder="Faktura-Adresse">
+        <input type="text" placeholder="Telefon...">
+        <a href="#">
+          <button type="button" name="">Submit</button>
+        </a>
       </div>
     </div>
   </section>
@@ -47,7 +57,7 @@
         <td class="sq-border-1 sq-padding-05 name">Jane Doe</td>
         <td class="sq-border-1 sq-padding-05"> 
           <div class="sq-flex sq-justify-center">
-            <button class="sq-admin-user-shopping">Info</button>
+            <button class="sq-admin-user-info">Info</button>
           </div>
         </td>
         <td class="sq-border-1 sq-padding-05"> 
@@ -66,7 +76,7 @@
         <td class="sq-border-1 sq-padding-05 name">Bob Kåre</td>
         <td class="sq-border-1 sq-padding-05"> 
           <div class="sq-flex sq-justify-center">
-            <button class="sq-admin-user-shopping">Info</button>
+            <button class="sq-admin-user-info">Info</button>
           </div>
         </td>
         <td class="sq-border-1 sq-padding-05"> 
@@ -85,7 +95,7 @@
         <td class="sq-border-1 sq-padding-05 name"></td>
         <td class="sq-border-1 sq-padding-05"> 
           <div class="sq-flex sq-justify-center">
-            <button class="sq-admin-user-shopping">Info</button>
+            <button class="sq-admin-user-info">Info</button>
           </div>
         </td>
         <td class="sq-border-1 sq-padding-05"> 
@@ -104,7 +114,7 @@
         <td class="sq-border-1 sq-padding-05 name"></td>
         <td class="sq-border-1 sq-padding-05"> 
           <div class="sq-flex sq-justify-center">
-            <button class="sq-admin-user-shopping">Info</button>
+            <button class="sq-admin-user-info">Info</button>
           </div>
         </td>
         <td class="sq-border-1 sq-padding-05"> 
@@ -133,8 +143,8 @@
   var info = document.getElementsByClassName("sq-admin-user-info");
   for (shs of info) { //Iterates through HTML DOM elements
       shs.onclick =  (el) => { //applies function to onclick event on iterated element
-        var userID = el.target.parentElement.parentElement.id;
-        var userName = el.target.parentElement.parentElement.querySelector('.name').innerHTML;
+        var userID = el.target.parentElement.parentElement.parentElement.id;
+        var userName = el.target.parentElement.parentElement.parentElement.querySelector('.name').innerHTML;
         imodal.querySelector('#userID').value = userID;
         imodal.querySelector('.name').innerHTML = userName;
         imodal.style.visibility = "visible";
@@ -146,7 +156,9 @@
   for (shs of shopping) { //Iterates through HTML DOM elements
       shs.onclick =  (el) => { //applies function to onclick event on iterated element
         var userID = el.target.parentElement.parentElement.id;
+        var userName = el.target.parentElement.parentElement.parentElement.querySelector('.name').innerHTML;
         shmodal.querySelector('#userID').value = userID;
+        shmodal.querySelector('.name').innerHTML = userName;
         shmodal.style.visibility = "visible";
     }
   }
