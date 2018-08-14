@@ -1,9 +1,12 @@
 <!--Admin Product Page-->
+<div class="sq-flex sq-justify-around">
+  <h1 class="">Adminproducts</h1>
+</div>
 
-<section style="margin-left:1rem; margin-right:1rem;">
+<section class="sq-l-padding-5 sq-r-padding-5">
   <button class="sq-air-b-1">Add/Create</button>
-  <input type="search..." placeholder="Search product..." style="margin-top:1rem;"> <button>Search</button>
-  <table class="sq-border-1 sq-border-collapse sq-width-90p">
+  <input type="search..." placeholder="Search product..." style="" class="sq-air-t-10"> <button>Search</button>
+  <table class="sq-border-1 sq-border-collapse sq-width- sq-air-t-10">
     <tr>
       <th>Name</th>
       <th>Info</th>
@@ -102,13 +105,12 @@
     </tr>
   </table>
 <section>
-
-<script>
-getPrice = function(el) {
-  //console.log(el.parentElement.parentElement.id);
-  var numVal1 = Number(document.getElementById(el.parentElement.parentElement.id).querySelector(".price").value);
-  var numVal2 = Number(document.getElementById(el.parentElement.parentElement.id).querySelector(".discount").value) / 100;
-  var totalValue = numVal1 - (numVal1 * numVal2)
-document.getElementById(el.parentElement.parentElement.id).querySelector(".total").value = totalValue.toFixed(2);
-}
-</script>
+              <script>
+              getPrice = function(el) {
+                //console.log(el.parentElement.parentElement.id);
+                var numVal1 = Number(document.getElementById(el.parentElement.parentElement.id).querySelector(".price").value);
+                var numVal2 = Number(document.getElementById(el.parentElement.parentElement.id).querySelector(".discount").value) / 100;
+                var totalValue = numVal1 - (numVal1 * numVal2)
+                document.getElementById(el.parentElement.parentElement.id).querySelector(".total").value = totalValue.toFixed(2);
+              }
+            </script>

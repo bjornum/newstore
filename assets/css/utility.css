@@ -81,6 +81,7 @@
 
 /*Misc*/
 .sq-border-collapse {border-collapse:collapse;}
+.sq-border-radius {border-radius: 5px 0px 0px 5px;}
 
 
 
@@ -152,13 +153,13 @@
 /* air Top Start */
 .sq-air-t-05{margin-top: 0.5em;}
 .sq-air-t-10{margin-top: 1em;}
-.sq-air-t-15{margin-top: 0.5em;}
+.sq-air-t-15{margin-top: 1.5em;}
 .sq-air-t-20{margin-top: 2em;}
-.sq-air-t-25{margin-top: 0.5em;}
+.sq-air-t-25{margin-top: 2.5em;}
 .sq-air-t-30{margin-top: 3em;}
-.sq-air-t-35{margin-top: 0.5em;}
+.sq-air-t-35{margin-top: 3.5em;}
 .sq-air-t-40{margin-top: 4em;}
-.sq-air-t-45{margin-top: 0.5em;}
+.sq-air-t-45{margin-top: 4.5em;}
 .sq-air-t-50{margin-top: 5em;}
 
 /* Margin bottom Start */
