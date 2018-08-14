@@ -14,19 +14,19 @@
                 oninput="this.className = ''"></p>
          </div>
          <div class="tab">Contact Info:
-         <p><input type="email" id="sq-reguser-input" class="sq-reguser-myinput" placeholder="E-mail..." oninput="this.className = ''"></p>
+         <p><input type="email" id="sq-reguser-input" class="sq-reguser-myinput" placeholder="Alias..." oninput="this.className = ''"></p>
          <p><input type="number" id="sq-reguser-input" class="sq-reguser-myinput" placeholder="Phone..." oninput="this.className = ''"></p>
          <p><input id="sq-reguser-input" class="sq-reguser-myinput" placeholder="Billing adress..." oninput="this.className = ''"></p>
-         <p><input id="sq-reguser-input" class="sq-reguser-myinput" placeholder="ZIP code..." oninput="this.className = ''"></p>
+         <p><input type="number" id="sq-reguser-input" class="sq-reguser-myinput" placeholder="ZIP code..." oninput="this.className = ''"></p>
         </div>
         <div class="tab">Birthday:<p>
-            <input id="sq-reguser-input" class="sq-reguser-myinput sq-reguser-myinput-write" placeholder="dd" oninput="this.className = ''"></p><p>
-            <input id="sq-reguser-input" class="sq-reguser-myinput" placeholder="mm" oninput="this.className = ''"></p><p>
-            <input id="sq-reguser-input" class="sq-reguser-myinput" placeholder="yyyy" oninput="this.className = ''"></p>
+            <input type="number" id="sq-reguser-input" class="sq-reguser-myinput sq-reguser-myinput-write" placeholder="dd" oninput="this.className = ''"></p><p>
+            <input type="number" id="sq-reguser-input" class="sq-reguser-myinput" placeholder="mm" oninput="this.className = ''"></p><p>
+            <input type="number" id="sq-reguser-input" class="sq-reguser-myinput" placeholder="yyyy" oninput="this.className = ''"></p>
             </div>
                 <div class="tab">Login Info:
                 <p>
-                <input id="sq-reguser-input" class="sq-reguser-myinput" placeholder="Username..." oninput="this.className = ''"></p><p>
+                <input id="sq-reguser-input" class="sq-reguser-myinput" placeholder="E-mail..." oninput="this.className = ''"></p><p>
                 <label for="psw">Password</label>
                 <input  class="sq-reguser-myinput" placeholder="Password..."
                     type="password"
