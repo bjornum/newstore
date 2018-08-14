@@ -11,66 +11,27 @@
     </div>
     <div class="sq-panel-main-content sq-air-10">
         <div class="sq-air-y-1 sq-panel sq-flex-wrap sq-justify-space-around">
+
+
+<%= for product <- @products do %>
             <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7; display:block;" >
                 <div class="sq-card-header sq-text-center">
-                    <p>Product name</p>
+                    <p><%= product.name %></p>
                 </div>    
                 <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
                     <img src="/images/user.png" alt="" class="sq-landing-card">
                 </div>
                 <div class="sq-card-footer sq-text-center">
-                    price: 200kr
+                    <%= product.price %>
                     <button>Buy</button>
                 </div>
             </div>
-            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7;">
-                <div class="sq-card-header sq-text-center">
-                    <p>Product name</p>
-                </div>    
-                <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
-                    <img src="/images/user.png" alt="" class="sq-landing-card">
-                </div>
-                <div class="sq-card-footer sq-text-center">
-                    price: 200kr
-                    <button>Buy</button>
-                </div>
-            </div>
-            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7;">
-                <div class="sq-card-header sq-text-center">
-                    <p>Product name</p>
-                </div>    
-                <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
-                    <img src="/images/user.png" alt="" class="sq-landing-card">
-                </div>
-                <div class="sq-card-footer sq-text-center">
-                    price: 200kr
-                    <button>Buy</button>
-                </div>
-            </div>
-            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7;">
-                <div class="sq-card-header sq-text-center">
-                    <p>Product name</p>
-                </div>    
-                <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
-                    <img src="/images/user.png" alt="" class="sq-landing-card">
-                </div>
-                <div class="sq-card-footer sq-text-center">
-                    price: 200kr
-                    <button>Buy</button>
-                </div>
-            </div>
-            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7;">
-                <div class="sq-card-header sq-text-center">
-                    <p>Product name</p>
-                </div>    
-                <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
-                    <img src="/images/user.png" alt="" class="sq-landing-card">
-                </div>
-                <div class="sq-card-footer sq-text-center">
-                    price: 200kr
-                    <button>Buy</button>
-                </div>
-            
+
+        <% end %>    
+
+
+
+
         </div>
         
     </div>
