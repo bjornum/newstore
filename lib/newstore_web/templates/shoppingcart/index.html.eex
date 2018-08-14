@@ -4,7 +4,7 @@
 </div>
 <br><br>
 <section class="sq-flex sq-justify-center">
-  <div class="sq-border-1 sq-width-70p sq-flex">
+  <div class="sq-border-1 sq-width-60p sq-flex">
   <table class="sq-border-collapse sq-width-100p">
     <tr>
       <th>Image</th>
@@ -23,7 +23,7 @@
       <td class="sq-border-1">Red Cup</td>
       <td class="sq-border-1">2</td>
       <td class="sq-border-1">15 Nok</td>
-      <td class="sq-border-1"><input class="sq-width-30em" onblur="findTotal()" type="text" name="sq-qty" id="sq-qty1"/> Nok</td>
+      <td class="sq-border-1"><!--<input class="sq-width-30em" onblur="findTotal()" type="text" name="sq-qty" id="sq-qty1"/>-->30 Nok</td>
       <td class="sq-border-1">
         <button>Delete</button>
       </td>
@@ -33,7 +33,7 @@
       <td class="sq-border-1">blue Cup</td>
       <td class="sq-border-1">1</td>
       <td class="sq-border-1">17 Nok</td>
-      <td class="sq-border-1"><input class="sq-width-30em" onblur="findTotal()" type="text" name="sq-qty" id="sq-qty2"/> Nok</td>
+      <td class="sq-border-1"><!--<input class="sq-width-30em" onblur="findTotal()" type="text" name="sq-qty" id="sq-qty2"/>-->17 Nok</td>
       <td class="sq-border-1">
         <button>Delete</button>
     </tr>
@@ -42,7 +42,7 @@
       <td class="sq-border-1">Green Cup</td>
       <td class="sq-border-1">5</td>
       <td class="sq-border-1">10 Nok</td>
-      <td class="sq-border-1"><input class="sq-width-30em" onblur="findTotal()" type="text" name="sq-qty" id="sq-qty3"/> Nok</td>
+      <td class="sq-border-1"><!--<input class="sq-width-30em" onblur="findTotal()" type="text" name="sq-qty" id="sq-qty3"/>-->50 Nok</td>
       <td class="sq-border-1">
         <button>Delete</button>
     </tr>
@@ -56,7 +56,7 @@
       <td></td>
       <td></td>
       <td><button>Checkout</button></td>
-      <td class="sq-border-1"><input class="sq-width-30em" type="text" id="sq-total"/> Nok</td>
+      <td class="sq-border-1"><!--<input class="sq-width-30em" type="text" id="sq-total"/>-->97 Nok</td>
     </tr>
     <tr>
     </tr>
