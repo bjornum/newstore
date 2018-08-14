@@ -25,93 +25,103 @@
       <td class="sq-border-1 sq-padding-05">
         <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
         <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button>Update</button></td>
-      <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05 sq-width-10p">Cup-Designer.com</td>
-      <td class="sq-border-1 sq-padding-05 sq-width-10p">
-        <a href="/storage"><button>Storage</button></a>
-      </td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Delete</button>
-      </td>
-    </tr>
-    <tr id="asdasd1">
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
-        <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button>Update</button></td>
-      <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <a href="/storage"><button>Storage</button></a>
-      </td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Delete</button>
-      </td>
-    </tr>
-    <tr id="asdasd2">
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
-        <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button>Update</button></td>
-      <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <a href="/storage"><button>Storage</button></a>
-      </td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Delete</button>
-      </td>
-    </tr>
-    <tr id="asdasd3">
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
-        <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button>Update</button></td>
-      <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <a href="/storage"><button>Storage</button></a>
-      </td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Delete</button>
-      </td>
-    </tr>
-    <tr id="asdasd4">
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
-        <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button>Update</button></td>
-      <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <a href="/storage"><button>Storage</button></a>
-      </td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Delete</button>
-      </td>
-    </tr>
-  </table>
-<section>
+        <button>Update</button></td>
+        <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
+        <td class="sq-border-1 sq-padding-05 sq-width-10p">Cup-Designer.com</td>
+        <td class="sq-border-1 sq-padding-05 sq-width-10p">
+          <div class="sq-justify-center sq-flex">
+            <a href="/storage"><button>Storage</button></a>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05">
+          <button>Delete</button>
+        </td>
+      </tr>
+      <tr id="asdasd1">
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05">
+          <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+          <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
+          <button>Update</button></td>
+          <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
+          <td class="sq-border-1 sq-padding-05"></td>
+          <td class="sq-border-1 sq-padding-05">
+            <div class="sq-justify-center sq-flex">
+              <a href="/storage"><button>Storage</button></a>
+            </div>
+          </td>
+          <td class="sq-border-1 sq-padding-05">
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr id="asdasd2">
+          <td class="sq-border-1 sq-padding-05"></td>
+          <td class="sq-border-1 sq-padding-05"></td>
+          <td class="sq-border-1 sq-padding-05"></td>
+          <td class="sq-border-1 sq-padding-05">
+            <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+            <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
+            <button>Update</button></td>
+            <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
+            <td class="sq-border-1 sq-padding-05"></td>
+            <td class="sq-border-1 sq-padding-05">
+              <div class="sq-justify-center sq-flex">
+                <a href="/storage"><button>Storage</button></a>
+              </div>
+            </td>
+            <td class="sq-border-1 sq-padding-05">
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr id="asdasd3">
+            <td class="sq-border-1 sq-padding-05"></td>
+            <td class="sq-border-1 sq-padding-05"></td>
+            <td class="sq-border-1 sq-padding-05"></td>
+            <td class="sq-border-1 sq-padding-05">
+              <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+              <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
+              <button>Update</button></td>
+              <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
+              <td class="sq-border-1 sq-padding-05"></td>
+              <td class="sq-border-1 sq-padding-05">
+                <div class="sq-justify-center sq-flex">
+                  <a href="/storage"><button>Storage</button></a>
+                </div>
+              </td>
+              <td class="sq-border-1 sq-padding-05">
+                <button>Delete</button>
+              </td>
+            </tr>
+            <tr id="asdasd4">
+              <td class="sq-border-1 sq-padding-05"></td>
+              <td class="sq-border-1 sq-padding-05"></td>
+              <td class="sq-border-1 sq-padding-05"></td>
+              <td class="sq-border-1 sq-padding-05">
+                <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+                <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
+                <button>Update</button></td>
+                <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
+                <td class="sq-border-1 sq-padding-05"></td>
+                <td class="sq-border-1 sq-padding-05">
+                  <div class="sq-justify-center sq-flex">
+                    <a href="/storage"><button>Storage</button></a>
+                  </div>
+                </td>
+                <td class="sq-border-1 sq-padding-05">
+                  <button>Delete</button>
+                </td>
+              </tr>
+            </table>
+            <section>
 
-<script>
-getPrice = function(el) {
-  //console.log(el.parentElement.parentElement.id);
-  var numVal1 = Number(document.getElementById(el.parentElement.parentElement.id).querySelector(".price").value);
-  var numVal2 = Number(document.getElementById(el.parentElement.parentElement.id).querySelector(".discount").value) / 100;
-  var totalValue = numVal1 - (numVal1 * numVal2)
-document.getElementById(el.parentElement.parentElement.id).querySelector(".total").value = totalValue.toFixed(2);
-}
-</script>
+              <script>
+              getPrice = function(el) {
+                //console.log(el.parentElement.parentElement.id);
+                var numVal1 = Number(document.getElementById(el.parentElement.parentElement.id).querySelector(".price").value);
+                var numVal2 = Number(document.getElementById(el.parentElement.parentElement.id).querySelector(".discount").value) / 100;
+                var totalValue = numVal1 - (numVal1 * numVal2)
+                document.getElementById(el.parentElement.parentElement.id).querySelector(".total").value = totalValue.toFixed(2);
+              }
+            </script>
