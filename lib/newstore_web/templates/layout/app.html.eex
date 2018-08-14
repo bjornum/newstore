@@ -38,7 +38,7 @@
           <!--SignIn button -->
           <div class="sq-flex sq-flex-row sq-force-right" style="margin-right: 1em;">
           <div class="sq-text-center">
-            <button class="sq-button1 sq-height-80p" onclick="toggleModal('myModal')" style=" margin-right: 1em; margin-top: 0; background-color: var(--secondary-highlight)">Login/Register</button>
+            <button class="sq-button1 sq-height-80p" onclick="toggleModal('myModal')" style=" margin-right: 1em; margin-top: 0;">Login/Register</button>
 
 
             <div class="sq-modal" id="myModal">

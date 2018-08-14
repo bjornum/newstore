@@ -3,7 +3,8 @@ defmodule NewstoreWeb.ProductsController do
   
     def index(conn, _params) do
       products = Prios.list_products
-      render conn, "index.html", products: products
+      prod  = Prios.get_product 1
+      render conn, "index.html", products: products, prod: prod
     end
 end
   
