@@ -2,7 +2,8 @@ defmodule NewstoreWeb.ProductsController do
     use NewstoreWeb, :controller
   
     def index(conn, _params) do
-      render conn, "index.html"
+      products = Prios.list_products
+      render conn, "index.html", products: products
     end
 end
   
