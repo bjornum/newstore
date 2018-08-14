@@ -22,7 +22,7 @@
     display: none;
   }
   
-  .sq-reguser-step {
+  .step {
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -33,11 +33,11 @@
     opacity: 0.5;
   }
   
-  .sq-reguser-step.active {
+  .step.active {
     opacity: 1;
   }
   
-  .sq-reguser-step.finish {
+  .step.finish {
     background-color: #4CAF50;
   }
 #sq-reguser-message {
