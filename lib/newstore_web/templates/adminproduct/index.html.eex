@@ -34,7 +34,9 @@
           </div>
         </td>
         <td class="sq-border-1 sq-padding-05">
-          <button>Delete</button>
+          <div class="sq-justify-center sq-flex">
+            <button>Delete</button>
+          </div>
         </td>
       </tr>
       <tr id="asdasd1">
@@ -53,7 +55,9 @@
             </div>
           </td>
           <td class="sq-border-1 sq-padding-05">
-            <button>Delete</button>
+            <div class="sq-justify-center sq-flex">
+              <button>Delete</button>
+            </div>
           </td>
         </tr>
         <tr id="asdasd2">
@@ -72,7 +76,9 @@
               </div>
             </td>
             <td class="sq-border-1 sq-padding-05">
-              <button>Delete</button>
+              <div class="sq-justify-center sq-flex">
+                <button>Delete</button>
+              </div>
             </td>
           </tr>
           <tr id="asdasd3">
@@ -91,7 +97,9 @@
                 </div>
               </td>
               <td class="sq-border-1 sq-padding-05">
-                <button>Delete</button>
+                <div class="sq-justify-center sq-flex">
+                  <button>Delete</button>
+                </div>
               </td>
             </tr>
             <tr id="asdasd4">
@@ -110,7 +118,9 @@
                   </div>
                 </td>
                 <td class="sq-border-1 sq-padding-05">
-                  <button>Delete</button>
+                  <div class="sq-justify-center sq-flex">
+                    <button>Delete</button>
+                  </div>
                 </td>
               </tr>
             </table>
