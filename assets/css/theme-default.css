@@ -42,8 +42,7 @@
 
 .sq-navbar-domain input {
   background-color: var(--secondary-accent);
-  border: solid 1px var(--secondary-border);
-  border-radius: 5px 0px 0px 5px;
+  border: solid 1px var(--secondary-border); 
 }
 
 .sq-border-nav {

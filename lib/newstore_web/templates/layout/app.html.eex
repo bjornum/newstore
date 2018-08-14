@@ -31,7 +31,7 @@
           <div class="sq-flex sq-force-left" style="margin-left: 1em; font-weight: bold;"><a href="/" class="sq-text-white sq-secondary">Home!</a></div>
           <!-- SearchBar -->
           <div class=" sq-flex sq-justify-center sq-width-300em sq-form  sq-height-80p">
-           <input type="text" placeholder="Search" name="search" class="sq-air-r-05" style="background-color: #dff0d8;">
+           <input type="text" placeholder="Search" name="search" class="sq-air-r-05" style="border-radius: 5px 0px 0px 5px; background-color: #dff0d8;">
             <button class="sq-button1" style="height: 100%; border-radius: 0px 5px 5px 0px;" type="submit">Search</button>
           </div>
           <!--SearchBar end-->
@@ -82,7 +82,7 @@
           </div>
           <!--SignIn button end -->
           <!--ShoppingCart button -->
-          <button class="sq-nav-dropdown sq-button1 sq-height-80p" style=" ">
+          <button class="sq-nav-dropdown sq-button1 sq-height-80p sq-width-30em">
             <svg id="i-cart" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
               <path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
               <circle cx="25" cy="27" r="2" />
