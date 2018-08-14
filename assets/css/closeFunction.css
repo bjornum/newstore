@@ -12,6 +12,7 @@
   }
   .sq-close:hover {
     background-color: var(--danger-highlight);
+    cursor: pointer;
   
   }
   /* modal background */

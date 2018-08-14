@@ -3,7 +3,8 @@
     <h1>Admin Main Page</h1>
   </div>
   <div class="sq-flex sq-justify-center sq-air-t-20">
-  <span><a href="/admin/adminuser"><button class="sq-padding-5">Users</button></a></span>
-  <span><a href="/admin/adminproduct"><button class="sq-padding-5 sq-air-r-40">Products</button></a></span>
+  <span><a href="/admin/adminuser"><button class="sq-shadow-lg sq-panel-btn sq-padding-5">Users</button></a></span>
+  <span><a href="/admin/adminproduct"><button class="sq-shadow-lg sq-panel-btn sq-padding-5 sq-air-r-40">Products</button></a></span>
+   <span><a href="/storage"><button class="sq-shadow-lg sq-panel-btn sq-padding-5 sq-air-r-40">Storage</button></a></span>
   </div>
 </section>
