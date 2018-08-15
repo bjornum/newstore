@@ -3,12 +3,10 @@
 </div>
 <section class="sq-l-padding-5 sq-r-padding-5">
 <!--Top Button/input-->
-  <div class="sq-flex sq-justify-center">
-    <div class="sq-width-40p sq-air-t-20">
+  <div class="sq-flex sq-justify-center sq-air-t-10">
       <button>Add/Create</button>
       <input type="search..." placeholder="Search users...">
       <button>Search</button>
-    </div>
   </div>
   <section>
   <!--Info-->
@@ -16,14 +14,26 @@
       <div class="sq-modal-content">
         <input hidden id="userID" value="">
         <span class="iclose sq-close">&times;</span>
-        <h1 class="sq-text-center">User Info</h1>
-        <h3 class="name">Paragraph 1</h3>
+        <div class="sq-text-center">
+          <h1 class="name">Paragraph 1</h1>
+        </div>
+        <div class="sq-text-center">
+          <p><strong>Contact Info</strong></p>
+        </div>
         <input type="text" placeholder="User id...">
         <input type="text" placeholder="Adresse...">
-        <input type="text" placeholder="Faktura-Adresse">
         <input type="text" placeholder="Telefon...">
+        <div class="sq-text-center">
+          <p><strong>Factura Adress</strong></p>
+        </div>
+        <input type="text" placeholder="Streetname...">
+        <input type="text" placeholder="City...">
+        <input type="text" placeholder="Country...">     
+        <input type="text" placeholder="zip code..">      
         <a href="#">
-          <button type="button" name="">Submit</button>
+          <div class="sq-flex sq-justify-center sq-air-t-20">
+            <button class="sq-padding-1">Submit</button>
+          </div>
         </a>
       </div>
     </div>
@@ -32,14 +42,20 @@
       <div class="sq-modal-content">
         <input hidden id="userID" value="">
         <span class="shclose sq-close">&times;</span>
-        <h1 class="sq-text-center">Shopping History</h1>
-        <h3 class="name">Paragraph 1</h3>
-        <input type="text" placeholder="User id...">
-        <input type="text" placeholder="Adresse...">
-        <input type="text" placeholder="Faktura-Adresse">
-        <input type="text" placeholder="Telefon...">
+        <div class="sq-text-center">
+          <h1 class="name">Paragraph 1</h1>
+        </div>
+        <div class="sq-text-center">
+          <p><strong>Products</strong></p>
+        </div>
+        <input type="text" placeholder="Item 1">
+        <input type="text" placeholder="Item 2">
+        <input type="text" placeholder="Item 3">
+        <input type="text" placeholder="Item 4">
         <a href="#">
-          <button type="button" name="">Submit</button>
+          <div class="sq-flex sq-justify-center sq-air-t-20">
+            <button class="sq-padding-1">Submit</button>
+          </div>
         </a>
       </div>
     </div>
