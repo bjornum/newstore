@@ -46,7 +46,7 @@
         <div class="sq-flex">
         <img src="/images/user.png" alt="" class="sq-landing-card sq-air-r-10">
         
-        <%= render NewstoreWeb.Shared.Product.InfoView, "info.html", assigns %>
+        <%# <%= render NewstoreWeb.Shared.Product.InfoView, "info.html", assigns %> %>
 
        
         

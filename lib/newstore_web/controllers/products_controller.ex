@@ -9,7 +9,7 @@ defmodule NewstoreWeb.ProductsController do
 
     def show(conn, %{"id" => id}) do
       product = Prios.get_product(id)
-      render conn, "show.html", product: product 
+      render conn, "info.html", product: product 
     end
   
 end
