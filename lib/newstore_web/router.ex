@@ -18,7 +18,7 @@ defmodule NewstoreWeb.Router do
 
     get "/", PageController, :index
     get "/shoppingcart", ShoppingcartController, :index
-    get "/products", ProductsController, :index
+    resources "/products", ProductsController
     get "/storage", StorageController, :index
     get "/admin", AdminController, :index
     get "/reguser", ReguserController, :index

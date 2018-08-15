@@ -13,8 +13,8 @@
         <div class="sq-air-y-1 sq-panel sq-flex-wrap sq-justify-space-around">
 
 
-<%= for product <- @products do %>
-            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7; display:block;" >
+        <%= for product <- @products do %>
+            <div id="product<%= product.id %>" class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7; display:block;" >
                 <div class="sq-card-header sq-text-center">
                     <p><%= product.name %></p>
                     Id:<%= product.id %>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="sq-card-footer sq-text-center">
                     <%= product.price %>
-                    
+                     <button><%= link "info", to: products_path(@conn, :show, product) %></button> 
                     <button>Buy</button>
                 </div>
             </div>
@@ -46,11 +46,14 @@
         <div class="sq-flex">
         <img src="/images/user.png" alt="" class="sq-landing-card sq-air-r-10">
         
-        <p><%= @prod.name%></p>
+        <%= render NewstoreWeb.Shared.Product.InfoView, "info.html", assigns %>
+
+       
+        
         
         </div>
+        <p id="sq-modal-info-description"></p>
         <div class="sq-flex">
-        <p><%= @prod.details%></p>
         <a href="/shoppingcart"><button>Buy</button></a>
         </div>
       </div>
@@ -64,6 +67,10 @@
     var info = document.getElementsByClassName("sq-landing-card");
     for (shs of info) { //Iterates through HTML DOM elements
         shs.onclick =  (el) => { //applies function to onclick event on iterated element
+            var id = el.target.parentElement.parentElement.id;
+            console.log(id);
+            document.getElementById('sq-modal-info-description').innerHTML = id;
+            document.querySelector('#sq-modal-info img').src = "/images/products/" + id.substring(7);
             var userName = el.target.querySelector;
             imodal.style.visibility = "visible";
         }

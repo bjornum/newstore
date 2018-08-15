@@ -1,0 +1,6 @@
+
+
+<%= @product.name %>
+<%= @product.price%>
+<%= @product.details %>
+
