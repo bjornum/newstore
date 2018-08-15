@@ -25,7 +25,7 @@
     --white: #fafafa;
     --muted: #999;
     --muted-highlight: #666;
-    --divider: #d8d8d8;
+    --divider: #e4e4e4;
 
 /* Shadows*/
 --shadow-02: #00000002;
@@ -42,7 +42,7 @@
 
 .sq-navbar-domain input {
   background-color: var(--secondary-accent);
-  border: solid 1px var(--secondary-border); 
+  border: solid 1px var(--secondary-border);
 }
 
 .sq-border-nav {
