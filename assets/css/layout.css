@@ -181,7 +181,7 @@
 /* Justify content*/
 .sq-justify-center{justify-content: center;}
 .sq-justify-start{justify-content: start;}
-.sq-justify-end{justify-content: end;}
+.sq-justify-end{justify-content: flex-end;}
 .sq-justify-between{justify-content: space-between;}
 .sq-justify-around{justify-content: space-around;}
 .sq-justify-evenly{justify-content: space-evenly;}

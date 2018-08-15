@@ -9,114 +9,116 @@
     <input type="search..." placeholder="Search product..." style=""> 
     <button>Search</button>
   </div>
-  <table class="sq-border-1 sq-border-collapse sq-width- sq-air-t-20">
-    <tr>
-      <th>Name</th>
-      <th>Info</th>
-      <th>Storage Status</th>
-      <th>Price</th>
-      <th>total $$$</th>
-      <th>Imported from</th>
-      <th>To Storage</th>
-      <th>Delete</th>
-    </tr>
-    <!-- Example,    -->
-    <tr id="asdasd">
-      <td class="sq-border-1 sq-padding-05 sq-width-10p sq-bold">Rød Kopp</td>
-      <td class="sq-border-1 sq-padding-05">A red cup with the brand of its producer</td>
-      <td class="sq-border-1 sq-padding-05 " >100</td>
-      <td class="sq-border-1 sq-padding-05">
-        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
-        <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button onclick="getPrice(this)">Update</button></td>
-      <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05 sq-width-10p">Cup-Designer.com</td>
-      <td class="sq-border-1 sq-padding-05 sq-width-10p">
-        <div class="sq-flex sq-justify-center">
-          <a href="/storage"><button>Storage</button></a>
-        </div>
-      </td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Delete</button>
-      </td>
-    </tr>
-    <tr id="asdasd1">
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
-        <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button onclick="getPrice(this)">Update</button></td>
-      <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <div class="sq-flex sq-justify-center">
-          <a href="/storage"><button>Storage</button></a>
-        </div>
-      </td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Delete</button>
-      </td>
-    </tr>
-    <tr id="asdasd2">
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
-        <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button onclick="getPrice(this)">Update</button></td>
-      <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <div class="sq-flex sq-justify-center">
-          <a href="/storage"><button>Storage</button></a>
-        </div>
-      </td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Delete</button>
-      </td>
-    </tr>
-    <tr id="asdasd3">
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
-        <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button onclick="getPrice(this)">Update</button></td>
-      <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <div class="sq-flex sq-justify-center">
-          <a href="/storage"><button>Storage</button></a>
-        </div>
-      </td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Delete</button>
-      </td>
-    </tr>
-    <tr id="asdasd4">
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
-        <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
-      <button onclick="getPrice(this)">Update</button></td>
-      <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
-      <td class="sq-border-1 sq-padding-05"></td>
-      <td class="sq-border-1 sq-padding-05">
-        <div class="sq-flex sq-justify-center">
-          <a href="/storage"><button>Storage</button></a>
-        </div>
-      </td>
-      <td class="sq-border-1 sq-padding-05">
-        <button>Delete</button>
-      </td>
-    </tr>
-  </table>
+  <div class="sq-flex sq-justify-center">
+    <table class="sq-border-1 sq-border-collapse sq-width- sq-air-t-20">
+      <tr>
+        <th>Name</th>
+        <th>Info</th>
+        <th>Storage Status</th>
+        <th>Price</th>
+        <th>total $$$</th>
+        <th>Imported from</th>
+        <th>To Storage</th>
+        <th>Delete</th>
+      </tr>
+      <!-- Example,    -->
+      <tr id="asdasd">
+        <td class="sq-border-1 sq-padding-05 sq-width-10p sq-bold">Rød Kopp</td>
+        <td class="sq-border-1 sq-padding-05">A red cup with the brand of its producer</td>
+        <td class="sq-border-1 sq-padding-05 " >100</td>
+        <td class="sq-border-1 sq-padding-05">
+          <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+          <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
+        <button onclick="getPrice(this)">Update</button></td>
+        <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
+        <td class="sq-border-1 sq-padding-05 sq-width-10p">Cup-Designer.com</td>
+        <td class="sq-border-1 sq-padding-05 sq-width-10p">
+          <div class="sq-flex sq-justify-center">
+            <a href="/storage"><button>Storage</button></a>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05">
+          <button>Delete</button>
+        </td>
+      </tr>
+      <tr id="asdasd1">
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05">
+          <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+          <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
+        <button onclick="getPrice(this)">Update</button></td>
+        <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05">
+          <div class="sq-flex sq-justify-center">
+            <a href="/storage"><button>Storage</button></a>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05">
+          <button>Delete</button>
+        </td>
+      </tr>
+      <tr id="asdasd2">
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05">
+          <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+          <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
+        <button onclick="getPrice(this)">Update</button></td>
+        <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05">
+          <div class="sq-flex sq-justify-center">
+            <a href="/storage"><button>Storage</button></a>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05">
+          <button>Delete</button>
+        </td>
+      </tr>
+      <tr id="asdasd3">
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05">
+          <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+          <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
+        <button onclick="getPrice(this)">Update</button></td>
+        <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05">
+          <div class="sq-flex sq-justify-center">
+            <a href="/storage"><button>Storage</button></a>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05">
+          <button>Delete</button>
+        </td>
+      </tr>
+      <tr id="asdasd4">
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05">
+          <input onkeyup="getPrice(this)" class="price" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" placeholder="Price" type="text">$
+          <input onkeyup="getPrice(this)" class="discount" style="width:50%;margin-bottom: 0px;margin-left:1.5em;" type="number" placeholder="Campaign %">%
+        <button onclick="getPrice(this)">Update</button></td>
+        <td class="sq-border-1 sq-padding-05"> <input readonly class="total"></td>
+        <td class="sq-border-1 sq-padding-05"></td>
+        <td class="sq-border-1 sq-padding-05">
+          <div class="sq-flex sq-justify-center">
+            <a href="/storage"><button>Storage</button></a>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05">
+          <button>Delete</button>
+        </td>
+      </tr>
+    </table>
+  </div>
 <section>
               <script>
               getPrice = function(el) {

@@ -20,14 +20,14 @@
         <div class="sq-navbar-nav sq-secondary sq-text-right sq-force-2">
           <!-- Links -->
           <div class=" sq-flex sq-air-x-05 sq-justify-evenly">
-            <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Sign up for our newsletter</a>
-            <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05">Welcome to out Store!</a>
-            <a href="#" class="sq-text-white sq-secondary ">Contact us</a>
+            <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05"></a>
+            <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05"></a>
+            <a href="#" class="sq-text-white sq-secondary "></a>
           </div>
         </div>
         <!--NavBar part 2/3-->
         <div class="sq-navbar-domain sq-secondary sq-flex sq-force-2 sq-justify-around">
-          
+
           <div class="sq-flex sq-force-left" style="margin-left: 1em; font-weight: bold;"><a href="/" class="sq-text-white sq-secondary">Home!</a></div>
           <!-- SearchBar -->
           <div class=" sq-flex sq-justify-center sq-width-300em sq-form  sq-height-80p">
@@ -38,7 +38,7 @@
           <!--SignIn button -->
           <div class="sq-flex sq-flex-row sq-force-right" style="margin-right: 1em;">
           <div class="sq-text-center">
-            <button class="sq-button1 sq-height-80p" onclick="toggleModal('myModal')" style=" margin-right: 1em; margin-top: 0; background-color: var(--secondary-highlight)">Login/Register</button>
+            <button class="sq-button1 sq-height-80p" onclick="toggleModal('myModal')" style=" margin-right: 1em; margin-top: 0; background-color: var(--secondary-highlight)">Login / Register</button>
 
 
             <div class="sq-modal" id="myModal">
@@ -57,7 +57,7 @@
                         <input type="password" name="" value="" placeholder="Password">
                         <div class="sq-flex-container-middle">
                           <div class="sq-force-left">
-                            <a href="#">
+                            <a href="/admin">
                               <button type="button" name="">Login</button>
                             </a>
                           </div>
@@ -91,34 +91,45 @@
             <div class=" sq-secondary sq-nav-dropdown-content-right">
               <div class="sq-card">
                 <div class="sq-flex sq-justify-evenly">
-                  <img class="sq-border-1" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
-                  <p>Pris:</p>
-                  <p>500-,</p>
+                  <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                    <div>
+                      <p>Pris:</p>
+                      <p>500-,</p>
+                    </div>
                 </div>
                 <div class="sq-flex sq-justify-evenly">
-                  <img class="sq-border-1" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
-                  <p>Pris:</p>
-                  <p>500-,</p>
+                  <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                    <div>
+                      <p>Pris:</p>
+                      <p>500-,</p>
+                    </div>
                 </div>
                 <div class="sq-flex sq-justify-evenly">
-                  <img class="sq-border-1" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
-                  <p>Pris:</p>
-                  <p>500-,</p>
+                  <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                    <div>
+                      <p>Pris:</p>
+                      <p>500-,</p>
+                    </div>
                 </div>
                 <div class="sq-flex sq-justify-evenly">
-                  <img class="sq-border-1" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
-                  <p>Pris:</p>
-                  <p>500-,</p>
+                  <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                    <div>
+                      <p>Pris:</p>
+                      <p>500-,</p>
+                    </div>
                 </div>
                 <div class="sq-flex sq-justify-evenly">
-                  <img class="sq-border-1" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
-                  <p>Pris:</p>
-                  <p>500-,</p>
+                  <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                    <div>
+                      <br>
+                      <p>Pris:</p>
+                      <p>500-,</p>
+                    </div>
                 </div>
                 <div class="sq-force-right">
                   <p>Sum: 2500-,</p>
                 </div>
-                <a class="sq-secondary" href="/shoppingcart">To shoppingcart</a>
+                <a class="sq-secondary-highlight sq-button1" href="/shoppingcart">To shoppingcart</a>
               </div>
             </div>
           </button>

@@ -55,11 +55,11 @@
 
 <%= for product <- @products do %>
             <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7; display:block;" >
-                <div class="sq-card-header sq-text-center">
-                    <p><%= product.name %></p>
-                </div>    
+                <div class="sq-card-header sq-text-center sq-air-05">
+                    <strong><%= product.name %></strong>
+                </div>
                 <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
-                    <img src="/images/user.png" alt="" class="sq-landing-card">
+                    <img src="/images/user.png" alt="" class="sq-landing-card" style="cursor: pointer;">
                 </div>
                 <div class="sq-card-footer sq-text-center">
                     <%= product.price %>
@@ -67,13 +67,13 @@
                 </div>
             </div>
 
-        <% end %>    
+        <% end %>
 
 
 
 
         </div>
-        
+
     </div>
 </div>
 <div id="sq-modal-info" class="sq-modal">
