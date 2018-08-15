@@ -2,8 +2,7 @@
 <section style="margin-left:1rem; margin-right:1rem;">
   <div align="center">
   <button class="sq-air-b-1">Add/Create</button>
-  <input type="search..." placeholder="Search product..." style="margin-top:1rem;"> <button>Search</button>
-  <button>Delete Checked</button>
+  <input type="search..." placeholder="Search product..." style="margin-top:1rem;" > <button>Search</button>
   </div>
   <table class="sq-border-1 sq-border-collapse sq-tables sq-width-90p" align="center">
     <tr>
@@ -28,8 +27,10 @@
       <td class="sq-border-1 sq-padding-05 sq-width-10p">
         <input type="number" placeholder="Amount">
         <button class="sq-btn-wide">Update</button></td>
-      <td class="sq-border-1 sq-padding-05 sq-width-10p" style="text-align: center;">
+      <td class="sq-border-1 sq-padding-05 sq-width-10p">
+        <div class="sq-flex sq-justify-center">
           <button>Order</button>
+        </div>
       </td>
 
     </tr>
@@ -45,8 +46,10 @@
       <td class="sq-border-1 sq-padding-05">
         <input type="number" placeholder="Amount">
         <button class="sq-btn-wide">Update</button></td>
-      <td class="sq-border-1 sq-padding-05" style="text-align: center;">
-        <button>Order</button>
+      <td class="sq-border-1 sq-padding-05">
+        <div class="sq-flex sq-justify-center">
+          <button>Order</button>
+        </div>
       </td>
 
     </tr>
@@ -62,8 +65,10 @@
       <td class="sq-border-1 sq-padding-05">
         <input type="number" placeholder="Amount">
         <button class="sq-btn-wide">Update</button></td>
-      <td class="sq-border-1 sq-padding-05" style="text-align: center;">
-        <button>Order</button></td>
+      <td class="sq-border-1 sq-padding-05">
+        <div class="sq-flex sq-justify-center">
+          <button>Order</button>
+        </div>
       </td>
 
     </tr>
@@ -79,8 +84,10 @@
       <td class="sq-border-1 sq-padding-05">
         <input type="number" placeholder="Amount">
         <button class="sq-btn-wide">Update</button></td>
-      <td class="sq-border-1 sq-padding-05" style="text-align: center;">
-        <button>Order</button>
+      <td class="sq-border-1 sq-padding-05">
+        <div class="sq-flex sq-justify-center">
+          <button>Order</button>
+        </div>
       </td>
     </tr>
     <tr id="asdasd4">
@@ -95,12 +102,17 @@
       <td class="sq-border-1 sq-padding-05">
         <input type="number" placeholder="Amount">
         <button class="sq-btn-wide">Update</button></td>
-      <td class="sq-border-1 sq-padding-05" style="text-align: center;">
-        <button>Order</button>
+      <td class="sq-border-1 sq-padding-05">
+        <div class="sq-flex sq-justify-center">
+          <button>Order</button>
+        </div>
       </td>
 
     </tr>
   </table>
+    <div class="sq-flex sq-width-95p sq-t-padding-05 ">
+      <button class="sq-force-right">Delete Checked</button>
+    </div>
 <section>
 
 <script>
