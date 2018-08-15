@@ -4,9 +4,49 @@
         <h1 class="sq-text-center">Products</h1>
         </div>
     </div>
-    <div class="sq-panel-header-bottom sq-air-10">
-        <div class="sq-panel sq-justify-center">
-        <h4 class="sq-text-center">Sort function placeholder</h4>
+    <%# sorting start %>
+    <div class="sq-panel-header-bottom sq-air-10 sq-flex sq-justify-center" style="min-width:100%">
+        <div class="sq-panel">
+        <div class="sq-air-y-10">
+        <div style="display:flex; flex:row;">
+        <div class="sq-air-r-10  sq-bold">Handle</div>
+        <div class="sq-bold" style="margin-left:5.8em;">Color</div>
+        <div class="sq-bold" style="margin-left:3.8em">Theme</div>
+        </div>      
+          <select class="sq-air-r-10 sq-padding-05 sq-text-small" id="ddlList">
+            <option value="0">All</option>
+            <option value="1">Handle</option>
+            <option value="2">Without handle</option>
+        </select>
+            <select class="sq-air-r-10 sq-padding-05 sq-text-small" name="color" id="">
+                <option value="0">All</option>
+                <option value="1">Black</option>
+                <option value="2">yellow</option>
+                <option value="3">Red</option>
+                <option value="4">Blue</option>
+                <option value="5">Green</option>
+                <option value="6">White</option>
+                <option value="7">Orange</option>
+            </select>
+                    <select class="sq-air-r-10 sq-padding-05 sq-text-small" name="mood" id="">
+                    <option value="0">All</option>
+                    <option value="1">Winter</option>
+                    <option value="2">Summer</option>
+                    <option value="3">Fall</option>
+                    <option value="4">Autumn</option>
+             </select>
+                 <button class="sq-air-r-05" style="float: right;"><label for="button">Highest price</label>
+                 <svg id="i-arrow-top" viewBox="0 0 32 32" width="1.5em" height="1.5em" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                  <path d="M6 10 L16 2 26 10 M16 2 L16 30" />
+              </svg>
+         </button>
+            <button class="sq-air-r-10" style="float:right;"><label for="button">lowest price</label>
+                <svg id="i-arrow-bottom" viewBox="0 0 32 32" width="1.5em" height="1.5em" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M6 22 L16 30 26 22 M16 30 L16 2" />
+        </svg>
+    </button>
+</div>
+    <%# sorting end %>
         </div>
     </div>
     <div class="sq-panel-main-content sq-air-10">
