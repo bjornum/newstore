@@ -5,11 +5,11 @@
 <!-- One "tab" for each step in the form: -->
 <div class="tab">Name:
 <p>
-    <input id="sq-reguser-input" id="sq-reguser-input" class="sq-reguser-myinput"
+    <input type="text" id="sq-reguser-input" class="sq-reguser-myinput"
         style="display:block;"
         placeholder="First name..."
         oninput="this.className = ''"></p><p>
-             <input id="sq-reguser-input" id="sq-reguser-input" class="sq-reguser-myinput" style="display:block;"
+             <input type="text" id="sq-reguser-input" class="sq-reguser-myinput" style="display:block;"
                 placeholder="Last name..."
                 oninput="this.className = ''"></p>
          </div>
@@ -78,6 +78,9 @@ function showTab(n) {
   }
   if (n == (x.length - 1)) {
     document.getElementById("nextBtn").innerHTML = "Submit";
+     document.getElementById("nextBtn").onclick = function () {
+        location.href = "/";
+    };
   } else {
     document.getElementById("nextBtn").innerHTML = "Next";
   }
