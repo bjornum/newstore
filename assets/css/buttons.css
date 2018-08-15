@@ -15,6 +15,30 @@
 .sq-btn-lg{padding: .9em 1.8em .9em 1.8em;}
 .sq-btn-wide{width: 100%;}
 
+button {
+  background-color: var(--secondary-highlight);
+  color: var(--text-white);
+  border:none;
+  text-decoration: none;
+  outline:none;
+  padding:0.4em 0.6em;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: var(--primary);
+}
+
+.sq-panel-btn {
+  background: linear-gradient(to top, var(--primary-highlight), var(--secondary-highlight));
+  background-color: var(--secondary-highlight);
+  color: var(--text-white);
+  border: none;
+  text-decoration: none;
+  outline: none;
+  padding:0.4em 0.6em;
+  font-size: 1.2rem;
+}
 /*button styles*/
 
 .sq-button1 {

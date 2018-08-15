@@ -61,7 +61,11 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><button>Checkout</button></td>
+            <td>
+              <div class="sq-flex sq-justify-end">
+                <button>Checkout</button>
+              </div>    
+            </td>
             <td class="sq-border-1"><!--<input class="sq-width-30em" type="text" id="sq-total"/>-->97 Nok</td>
           </tr>
           <tr>

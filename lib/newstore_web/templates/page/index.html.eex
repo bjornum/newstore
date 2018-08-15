@@ -1,7 +1,7 @@
 <div class="sq-main-layout">
-  <div class="sq-grid-area-landing-best sq-mt-1 sq-mb-1">
-    <p class="sq-text-center">Hot right now!</p>
-    <div class="sq-panel sq-flex-wrap" style="justify-content:space-around;">
+  <div class="sq-grid-area-landing-best sq-mt-1 sq-mb-1 sq-air-t-30">
+    <h3 class="sq-text-center">Hot right now!</h3>
+    <div class="sq-panel sq-flex-wrap sq-air-t-30" style="justify-content:space-around;">
       <div class="sq-landing-card sq-card sq-text-center">
         <div class="sq-card-header">
           <p>Super coffe mug</p>
@@ -44,9 +44,9 @@
       </div>
     </div>
   </div>
-  <div class="sq-grid-area-landing-news sq-mt-1 sq-mb-1">
-    <p class="sq-text-center">Fresh and new!</p>
-    <div class="sq-panel sq-flex-wrap" style="justify-content:space-around;">
+  <div class="sq-grid-area-landing-news sq-mt-1 sq-mb-1 sq-air-t-30">
+    <h3 class="sq-text-center">Fresh and new!</h3>
+    <div class="sq-panel sq-flex-wrap sq-air-t-30" style="justify-content:space-around;">
       <div class="sq-landing-card sq-card sq-text-center">
         <div class="sq-card-header">
           <p>Super coffe mug</p>
