@@ -2,12 +2,12 @@
   <div class="sq-panel-main-top sq-padding-1">
     <h1>Jane Doe</h1>
       <div class="">
-        <div class="sq-text-large">
+       <!-- <div class="sq-text-large">
           <p>Adress: Kongensgate </p>
           <p>Zip: 0070 Oslo</p>
           <p>email: nobody@online.no</p>
           <p>Phone: 9866 6666</p>
-        </div>
+        </div>-->
         <div class="">
           <button class="sq-admin-user-info">Endre Informasjon</button>
 
@@ -16,14 +16,17 @@
               <div class="sq-padding-2">
                 <form class="sq-modal-content sq-form sq-padding-1" method="post">
                   <span class=" iclose sq-close">&times;</span>
-                  <h1 class="sq-text-center">Change info</h1>
+                  <h1 class="sq-text-center">Jane Doe</h1>
                   <input type="text" placeholder="Name...">
+                  <input type="text" placeholder="Phone...">
                   <input type="text" placeholder="Street adress...">
                   <input type="text" placeholder="Postal code...">
                   <input type="text" placeholder="Town...">
-                  <input type="text" placeholder="Phone...">
+                  <input type="text" placeholder="Country...">
                   <a href="#">
-                    <button type="button" name="">Submit</button>
+                    <div class="sq-flex sq-justify-center sq-air-t-20">
+                      <button class="sq-padding-1">Submit</button>
+                    </div>
                   </a>
                 </form>
               </div>
@@ -48,7 +51,7 @@
               <th>Beløp eks mva</th>
             </tr>
               <tr>
-                <td>1 2018 april 1</td>
+                <td>1</td>
                 <td></td>
                 <td></td>
                 <td></td>
