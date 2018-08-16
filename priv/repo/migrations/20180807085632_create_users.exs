@@ -11,7 +11,7 @@ defmodule Prios.Repo.Migrations.CreateUsers do
       add :postal_code, :string
       add :city, :string
       add :country, :string
-      add :cart, {:array, :map}, default: []
+      add :cart, {:array, :jsonb}, default: []
       timestamps()
     end
   end
