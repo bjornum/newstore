@@ -1,0 +1,22 @@
+<div class="sq-panel sq-flex-direction-col">
+  <div class="">
+    <h3>About Newstore</h3>
+    <p>Lorem ipsum dolor sit amet, ut laoreet accumsan vim, ius no quas moderatius, qui dicat viris et. Sed eu explicari omittantur, rebum civibus repudiandae vix an. Diam singulis quo ne, qui hinc accusam omnesque te, mel cu suas meis novum. Natum modus nusquam vis in.</p>
+
+    <p>Sed in eruditi offendit convenire. Meis appetere perfecto eam id. Sea ut porro tation abhorreant, et mel solet semper. Augue explicari te mel, qui saperet invidunt te. Cum ut nisl mollis, aeque habemus albucius eam id.</p>
+
+    <p>Sea aperiri epicurei facilisi ea, sit no nobis tritani. Simul vitae comprehensam cum no. Audire maiestatis eu eam, dicam utamur ut eos. Qui ad odio docendi conse</p>
+  </div>
+  <div class="">
+    <p><strong>Newstore</strong><br>
+    Jæktskippergata 8<br>
+  7725 Steinkjer</p>
+  <p>Tlf: 9999 9999</p>
+  <p>Org.nr: 999 999 999</p>
+  </div>
+  <div class="">
+    <div style="width:600px; height: 500px; background-color: var(--secondary-accent);">
+      placeholder map
+    </div>
+  </div>
+</div>
