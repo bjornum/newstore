@@ -26,10 +26,10 @@
         <div class="sq-text-center">
           <p><strong>Factura Adress</strong></p>
         </div>
-        <input type="text" placeholder="Streetname...">
-        <input type="text" placeholder="City...">
+         <input type="text" placeholder="Streetname..."> 
+         <input type="text" placeholder="City...">
         <input type="text" placeholder="Country...">     
-        <input type="text" placeholder="zip code..">      
+        <input type="text" placeholder="zip code..">       
         <a href="#">
           <div class="sq-flex sq-justify-center sq-air-t-20">
             <button class="sq-padding-1">Submit</button>
@@ -69,8 +69,10 @@
         <th>Shopping History</th>
         <th>Update/Delete</th>
       </tr>
-      <tr id="4123123">
-        <td class="sq-border-1 sq-padding-05 name">Jane Doe</td>
+      <%#  %>
+      <%= for user <- @users do %>
+      <tr id="<%= user.id %>">
+        <td class="sq-border-1 sq-padding-05 name"><%= user.lname %></td>
         <td class="sq-border-1 sq-padding-05"> 
           <div class="sq-flex sq-justify-center">
             <button class="sq-admin-user-info">Info</button>
@@ -88,6 +90,8 @@
           </div>
         </td>
       </tr>
+      <% end %>
+      <%#  %>
       <tr id="31515123231">
         <td class="sq-border-1 sq-padding-05 name">Bob Kåre</td>
         <td class="sq-border-1 sq-padding-05"> 
