@@ -1,0 +1,173 @@
+<div class="sq-flex sq-justify-center sq-air-t-20">
+  <h1>Admin Users</h1>
+</div>
+<section class="sq-l-padding-5 sq-r-padding-5">
+<!--Top Button/input-->
+  <div class="sq-flex sq-justify-center">
+    <div class="sq-width-40p sq-air-t-20">
+      <button>Add/Create</button>
+      <input type="search..." placeholder="Search users...">
+      <button>Search</button>
+    </div>
+  </div>
+  <section>
+  <!--Info-->
+    <div  id="sq-modal-info" class="sq-modal">
+      <div style="width: 50%; height:50%;" class="sq-modal-content">
+        <input hidden id="userID" value="">
+        <span class="iclose sq-close">&times;</span>
+        <p class="name">Paragraph 1</p>
+        <p>placeholder 1</p>
+        <p>placeholder 2</p>
+        <p>placeholder 3</p>
+      </div>
+    </div>
+    <!--Shopping-->
+    <div id="sq-modal-shopping" class="sq-modal">
+      <div style="width:50%; height:50%;" class="sq-modal-content">
+        <input hidden id="userID" value="">
+        <span class="shclose sq-close">&times;</span>
+        <p class="name">Paragraph 1</p>
+        <p>placeholder 1</p>
+        <p>placeholder 2</p>
+        <p>placeholder 3</p>
+      </div>
+    </div>
+  </section>
+  <div class="sq-flex sq-justify-center">
+  <!--Table-->
+    <table class="sq-border-1 sq-border-collapse sq-width-40p sq-air-t-15">
+      <tr>
+        <th>Name</th>
+        <th>Info</th>
+        <th>Shopping History</th>
+        <th>Update/Delete</th>
+      </tr>
+      <tr id="4123123">
+        <td class="sq-border-1 sq-padding-05 name">Jane Doe</td>
+        <td class="sq-border-1 sq-padding-05"> 
+          <div class="sq-flex sq-justify-center">
+            <button class="sq-admin-user-shopping">Info</button>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05"> 
+          <div class="sq-flex sq-justify-center">
+            <button class="sq-admin-user-shopping">Shopping History</button>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05">
+          <div class="sq-flex sq-justify-around">
+            <button>Update</button>
+            <button>Delete</button>
+          </div>
+        </td>
+      </tr>
+      <tr id="31515123231">
+        <td class="sq-border-1 sq-padding-05 name">Bob Kåre</td>
+        <td class="sq-border-1 sq-padding-05"> 
+          <div class="sq-flex sq-justify-center">
+            <button class="sq-admin-user-shopping">Info</button>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05"> 
+          <div class="sq-flex sq-justify-center">
+            <button class="sq-admin-user-shopping">Shopping History</button>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05">
+          <div class="sq-flex sq-justify-around">
+            <button>Update</button>
+            <button>Delete</button>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="sq-border-1 sq-padding-05 name"></td>
+        <td class="sq-border-1 sq-padding-05"> 
+          <div class="sq-flex sq-justify-center">
+            <button class="sq-admin-user-shopping">Info</button>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05"> 
+          <div class="sq-flex sq-justify-center">
+            <button class="sq-admin-user-shopping">Shopping History</button>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05">
+          <div class="sq-flex sq-justify-around">
+            <button>Update</button>
+            <button>Delete</button>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="sq-border-1 sq-padding-05 name"></td>
+        <td class="sq-border-1 sq-padding-05"> 
+          <div class="sq-flex sq-justify-center">
+            <button class="sq-admin-user-shopping">Info</button>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05"> 
+          <div class="sq-flex sq-justify-center">
+            <button class="sq-admin-user-shopping">Shopping History</button>
+          </div>
+        </td>
+        <td class="sq-border-1 sq-padding-05">
+          <div class="sq-flex sq-justify-around">
+            <button>Update</button>
+            <button>Delete</button>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+<script>
+  //get modal info and shopping start
+  var imodal = document.getElementById("sq-modal-info");
+  var shmodal = document.getElementById("sq-modal-shopping");
+  //end
+
+// Button id that opens the modal start
+//Info
+  var info = document.getElementsByClassName("sq-admin-user-info");
+  for (shs of info) { //Iterates through HTML DOM elements
+      shs.onclick =  (el) => { //applies function to onclick event on iterated element
+        var userID = el.target.parentElement.parentElement.id;
+        var userName = el.target.parentElement.parentElement.querySelector('.name').innerHTML;
+        imodal.querySelector('#userID').value = userID;
+        imodal.querySelector('.name').innerHTML = userName;
+        imodal.style.visibility = "visible";
+    }
+  }
+
+//Shopping History
+  var shopping = document.getElementsByClassName("sq-admin-user-shopping");
+  for (shs of shopping) { //Iterates through HTML DOM elements
+      shs.onclick =  (el) => { //applies function to onclick event on iterated element
+        var userID = el.target.parentElement.parentElement.id;
+        shmodal.querySelector('#userID').value = userID;
+        shmodal.style.visibility = "visible";
+    }
+  }
+//Button id end
+
+
+// Get the <span> element that closes the modal start
+//info
+  var ispan = document.getElementsByClassName("iclose")
+  for (shs of ispan) { //Iterates through HTML DOM elements
+      shs.onclick =  (el) => { //applies function to onclick event on iterated element
+        el.target.parentElement.parentElement.style.visibility = "hidden"; //elevates itself from shclose-button to modal element, then sets display to none.
+    }
+  }
+
+//shopping
+  var shspan = document.getElementsByClassName("shclose"); //Selects all "shclose"-buttons
+  for (shs of shspan) { //Iterates through HTML DOM elements
+      shs.onclick =  (el) => { //applies function to onclick event on iterated element
+        el.target.parentElement.parentElement.style.visibility = "hidden"; //elevates itself from shclose-button to modal element, then sets display to none.
+    }
+  }
+//end
+</script>

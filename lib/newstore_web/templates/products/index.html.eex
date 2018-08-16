@@ -1,1 +1,87 @@
-<h1>Products</h1>
+<div class="sq-main-layout">
+    <div class="sq-panel-header-top sq-air-10">
+        <div class="sq-panel sq-justify-center">
+        <h1 class="sq-text-center">Products</h1>
+        </div>
+    </div>
+    <div class="sq-panel-header-bottom sq-air-10">
+        <div class="sq-panel sq-justify-center">
+        <h4 class="sq-text-center">Sort function placeholder</h4>
+        </div>
+    </div>
+    <div class="sq-panel-main-content sq-air-10">
+        <div class="sq-air-y-1 sq-panel sq-flex-wrap sq-justify-space-around">
+
+
+        <%= for product <- @products do %>
+            <div id="product<%= product.id %>" class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7; display:block;" >
+                <div class="sq-card-header sq-text-center">
+                    <p><%= product.name %></p>
+                    Id:<%= product.id %>
+                    
+                </div>    
+                <div class="sq-flex sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
+                    <img src="/images/user.png" alt="" class="sq-landing-card">
+                </div>
+                <div class="sq-card-footer sq-text-center">
+                    <%= product.price %>
+                     <button><%= link "info", to: products_path(@conn, :show, product) %></button> 
+                    <button>Buy</button>
+                </div>
+            </div>
+
+        <% end %>    
+
+
+
+
+        </div>
+        
+    </div>
+</div>
+<div id="sq-modal-info" class="sq-modal">
+      <div class="sq-modal-content">
+        <input hidden id="userID" value="">
+        <span class="iclose sq-close">&times;</span>
+        <div class="sq-flex">
+        <img src="/images/user.png" alt="" class="sq-landing-card sq-air-r-10">
+        
+        <%# <%= render NewstoreWeb.Shared.Product.InfoView, "info.html", assigns %> %>
+
+       
+        
+        
+        </div>
+        <p id="sq-modal-info-description"></p>
+        <div class="sq-flex">
+        <a href="/shoppingcart"><button>Buy</button></a>
+        </div>
+      </div>
+    </div>
+<script>
+    //get modal info and shopping start
+    var imodal = document.getElementById("sq-modal-info");
+
+    // Button id that opens the modal start
+    //Info
+    var info = document.getElementsByClassName("sq-landing-card");
+    for (shs of info) { //Iterates through HTML DOM elements
+        shs.onclick =  (el) => { //applies function to onclick event on iterated element
+            var id = el.target.parentElement.parentElement.id;
+            console.log(id);
+            document.getElementById('sq-modal-info-description').innerHTML = id;
+            document.querySelector('#sq-modal-info img').src = "/images/products/" + id.substring(7);
+            var userName = el.target.querySelector;
+            imodal.style.visibility = "visible";
+        }
+    }
+
+    // Get the <span> element that closes the modal start
+    //info
+    var ispan = document.getElementsByClassName("iclose")
+    for (shs of ispan) { //Iterates through HTML DOM elements
+        shs.onclick =  (el) => { //applies function to onclick event on iterated element
+            el.target.parentElement.parentElement.style.visibility = "hidden"; //elevates itself from shclose-button to modal element, then sets display to none.
+        }
+    }
+</script>

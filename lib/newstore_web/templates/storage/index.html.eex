@@ -1,1 +1,108 @@
-<h1>Storage</h1>
+<h1 align="center">Storage</h1>
+<section style="margin-left:1rem; margin-right:1rem;">
+  <div align="center">
+  <button class="sq-air-b-1">Add/Create</button>
+  <input type="search..." placeholder="Search product..." style="margin-top:1rem;"> <button>Search</button>
+  <button>Delete Checked</button>
+  </div>
+  <table class="sq-border-1 sq-border-collapse sq-tables sq-width-90p" align="center">
+    <tr>
+      <th>Name</th>
+      <th>Info</th>
+      <th>Storage Status</th>
+      <th>Price</th>
+      <th>Supplier</th>
+      <th>Delete/Update</th>
+      <th>To supplier</th>
+    </tr>
+    <!-- Example,    -->
+    <tr id="asdasd">
+      <td class="sq-border-1 sq-padding-05 sq-width-10p">
+        <input type="checkbox">
+        Product 1</td>
+      <td class="sq-border-1 sq-padding-05">always it was the red kopp lel a mother once knew a son. the father of the son took the son to the mountains to the cabin and went fishing. they never came back, so the mother of the son started making cups.</td>
+      <td class="sq-border-1 sq-padding-05 " >100</td>
+      <td class="sq-border-1 sq-padding-05">199.-</td>
+      <td class="sq-border-1 sq-padding-05"> 
+        <span>DummyComp Inc.</span></td>
+      <td class="sq-border-1 sq-padding-05 sq-width-10p">
+        <input type="number" placeholder="Amount">
+        <button class="sq-btn-wide">Update</button></td>
+      <td class="sq-border-1 sq-padding-05 sq-width-10p">
+        <button>Order</button>
+      </td>
+     
+    </tr>
+    <tr id="asdasd1">
+      <td class="sq-border-1 sq-padding-05">
+        <input type="checkbox">
+        Product 2</td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05">0</td>
+      <td class="sq-border-1 sq-padding-05">199.-</td>
+      <td class="sq-border-1 sq-padding-05"> 
+        <span>DummyComp Inc.</span></td>
+      <td class="sq-border-1 sq-padding-05">
+        <input type="number" placeholder="Amount">
+        <button class="sq-btn-wide">Update</button></td>
+      <td class="sq-border-1 sq-padding-05">
+        <button>Order</button>
+      </td>
+      
+    </tr>
+    <tr id="asdasd2">
+      <td class="sq-border-1 sq-padding-05">
+        <input type="checkbox">
+        Product 3</td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05">45</td>
+      <td class="sq-border-1 sq-padding-05">199.-</td>
+      <td class="sq-border-1 sq-padding-05"> 
+        <span>DummyComp Inc.</span></td>
+      <td class="sq-border-1 sq-padding-05">
+        <input type="number" placeholder="Amount">
+        <button class="sq-btn-wide">Update</button></td>
+      <td class="sq-border-1 sq-padding-05">
+        <button>Order</button></td>
+      </td>
+      
+    </tr>
+    <tr id="asdasd3">
+      <td class="sq-border-1 sq-padding-05">
+        <input type="checkbox">
+        product 4</td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05">0</td>
+      <td class="sq-border-1 sq-padding-05">199.-</td>
+      <td class="sq-border-1 sq-padding-05">
+        <span>DummyComp Inc.</span></td>
+      <td class="sq-border-1 sq-padding-05">
+        <input type="number" placeholder="Amount">
+        <button class="sq-btn-wide">Update</button></td>
+      <td class="sq-border-1 sq-padding-05">
+        <button>Order</button>
+      </td>
+    </tr>
+    <tr id="asdasd4">
+      <td class="sq-border-1 sq-padding-05"> 
+        <input type="checkbox">
+        Product 5</td>
+      <td class="sq-border-1 sq-padding-05"></td>
+      <td class="sq-border-1 sq-padding-05">78</td>
+      <td class="sq-border-1 sq-padding-05">199.-</td>
+      <td class="sq-border-1 sq-padding-05">
+        <span>DummyComp Inc.</span></td>
+      <td class="sq-border-1 sq-padding-05">
+        <input type="number" placeholder="Amount">
+        <button class="sq-btn-wide">Update</button></td>
+      <td class="sq-border-1 sq-padding-05">
+        <button>Order</button>
+      </td>
+     
+    </tr>
+  </table>
+<section>
+
+<script>
+
+</script>

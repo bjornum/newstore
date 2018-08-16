@@ -1,13 +1,17 @@
+/* prim 5fce90 sec-high 44996b  */
 :root{
     --text-base: #333;
     --text-white: #fafafa;
-    --primary: #0088ce;
-    --primary-highlight: #39a5dc;
-    --secondary: #393f44;
+    --primary: #008255;
+    --primary-highlight: #00d28a;
+    --secondary: #fafafa;
     --secondary-transparancy: #393f44dd;
-    --secondary-highlight: #72767b;
+    --secondary-accent: #e3eddf;
+    --secondary-highlight: #009c67;
+    --secondary-border: #307124;
+    --secondary-text: #0a0a0a;
     --background: #fafafa;
-    --background-secondary: #ededed;
+    --background-secondary: #f0f0f0;
     --success: #3f9c35;
     --success-highlight: #9ecf99;
     --info: #007a87;
@@ -36,6 +40,18 @@
 --shadow-1E: #0000001E;
 }
 
+.sq-navbar-domain input {
+  background-color: var(--secondary-accent);
+  border: solid 1px var(--secondary-border); 
+}
+
+.sq-border-nav {
+  border-top: solid 3px var(--secondary-border);
+}
+
+.sq-nav-btn-group a {
+  color: white;
+}
 
 .sq-text-base{
     color: var(--text-base);
@@ -52,12 +68,12 @@
     background-color: var(--primary-highlight);
 }
 .sq-secondary{
-    color: var(--text-white);
+    color: var(--secondary-text);
     background-color: var(--secondary);
-}    
+}
 .sq-secondary-transparancy{
     background-color: var(--secondary-transparancy);
-}    
+}
 
 .sq-secondary-highlight{
     background-color: var(--secondary-highlight);
@@ -103,7 +119,7 @@
     color: var(--grey);
 }
 .sq-white{
-    background-color: var(--white);   
+    background-color: var(--white);
 }
 .sq-muted{
     color: var(--muted);
@@ -162,4 +178,4 @@
   .sq-shadow-xl{
     box-shadow: 0 1.188em 2.375em var(--shadow-1E), 0 0.938em 0.750em var(--shadow-16);
   }
-/* Shadows end */  
+/* Shadows end */

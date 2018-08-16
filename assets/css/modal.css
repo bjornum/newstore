@@ -1,37 +1,33 @@
-/* Adds a hidden modal window */
+
+/*Modal background*/
 .sq-modal {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    visibility: hidden;
-    transform: scale(1.1);
-    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  position: fixed; /*Stay in place*/
+  left: 0;
+  top: 0;
+  width: 100%; /*Full width*/
+  height: 100%; /*Full height*/
+  background-color: rgba(0, 0, 0, 0.5);/*bg color*/
+  opacity: 1; /*How much of the background should be shown*/
+  /* visibility: hidden; /*Same as display none*/
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  z-index: 1; /* Sit on top */
+  visibility: hidden;
+  padding-top: 6em; /* push box down */
+  overflow: auto; /* if needing to scroll */
 }
+
 /* Content of the modal window */
 .sq-modal-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
 }
+
 /* Adds a close button to the modal window */
-.sq-close-button {
-    margin-right: 0.5em;
-    margin-top: 0.3em;
-    float: right;
-    cursor: pointer;
-    background-color:var(--primary);
-    font-size: 1.5em;
-}
-/* Highlights close button on hover */
-.sq-close-button:hover {
-    background-color:var(--primary-highlight)
-}
+
 /* Shows the modal window */
 .sq-show-modal {
     opacity: 1;
@@ -39,6 +35,7 @@
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
+/*Button Styling*/
 .sq-btn{
     height:100%;
     border: none;
@@ -53,55 +50,13 @@
     -moz-box-shadow:    inset 1px 1px 10px #333;
     box-shadow:         inset 1px 1px 10px #333;
 }
- /* Adds layout for the tabs */
-.sq-tabs {
-  display: flex;
-  flex-wrap: wrap;
-}
-/* Orders the tabs and styles the tab buttons */
-.sq-tabs label {
-  order: 1;
-  display: block;
-  padding: 1rem 2rem;
-  margin-right: 0.2rem;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background ease 0.2s;
-}
-.sq-tabs .sq-tab {
-  order: 99;
-  flex-grow: 1;
-  width: 100%;
-  display: none;
-  padding: 1rem;
-}
-/* Adds a radio class to the tabs and styles them */
-.sq-tabs input[type="radio"] {
-  display: none;
-}
-.sq-tabs input[type="radio"]:checked + label {
-    border-bottom:solid .2em var(--primary)
-}
-.sq-tabs input[type="radio"]:checked + label + .sq-tab {
-  display: block;
-}
-@media (max-width: 45em) {
-  .sq-tabs .tab,
-  .sq-tabs label {
-    order: initial;
-  }
-  .sq-tabs label {
-    width: 100%;
-    margin-right: 0;
-    margin-top: 0.2rem;
-  }
-}
-.reset-box{
+
+/* .reset-box{
     margin: 5em;
     height: 15em;
     width: 32em;
     border: double 1px black;
-}
+} */
 /* modal boxes, show function and general box */
 /* close button on hover no longer in use.
  .sq-close-button:hover {
@@ -144,7 +99,7 @@
     margin: 2rem;
   }
   social media modal box end... */
-   /* modal for user page. no longer in use. 
+   /* modal for user page. no longer in use.
   .sq-modal-user-page{
     position: fixed;
     left: 0;

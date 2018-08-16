@@ -1,1 +1,100 @@
-<h1>Admin User Page </h1>
+<div class="sq-main-layout sq-grid-gap sq-padding-1 sq-air-10">
+  <div class="sq-panel-main-top sq-padding-1">
+    <h1>Jane Doe</h1>
+      <div class="">
+        <div class="sq-text-large">
+          <p>Adress: Kongensgate </p>
+          <p>Zip: 0070 Oslo</p>
+          <p>email: nobody@online.no</p>
+          <p>Phone: 9866 6666</p>
+        </div>
+        <div class="">
+          <button class="sq-admin-user-info">Endre Informasjon</button>
+
+            <div id="sq-modal-info" class="sq-modal">
+            <!--box-->
+              <div class="sq-padding-2">
+                <form class="sq-modal-content sq-form sq-padding-1" method="post">
+                  <span class=" iclose sq-close">&times;</span>
+                  <h1 class="sq-text-center">Change info</h1>
+                  <input type="text" placeholder="Name...">
+                  <input type="text" placeholder="Street adress...">
+                  <input type="text" placeholder="Postal code...">
+                  <input type="text" placeholder="Town...">
+                  <input type="text" placeholder="Phone...">
+                  <a href="#">
+                    <button type="button" name="">Submit</button>
+                  </a>
+                </form>
+              </div>
+            </div>
+            <!--box end -->
+          </div>
+        </div>
+      </div>
+      <div class="sq-panel-main-bottom">
+        <div class="sq-table-container">
+          <table border="2" class="sq-tables sq-custom-table-position">
+            <colgroup>
+              <col span="3" style="display: none;">
+              <col style="display: none;">
+            </colgroup>
+            <thead><strong>Kjøpshistorikk</strong></thead>
+              <tr>
+              <th>Fakturadato</th>
+              <th>Ordrenr</th>
+              <th>vedlegg</th>
+              <th>Beløp inkl. mva</th>
+              <th>Beløp eks mva</th>
+            </tr>
+              <tr>
+                <td>1 2018 april 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  //get modal info and shopping start
+  var imodal = document.getElementById("sq-modal-info");
+
+  // Button id that opens the modal start
+//Info
+  var info = document.getElementsByClassName("sq-admin-user-info");
+  for (shs of info) { //Iterates through HTML DOM elements
+      shs.onclick =  (el) => { //applies function to onclick event on iterated element
+        var userName = el.target.querySelector;
+            imodal.style.visibility = "visible";
+    }
+  }
+
+  // Get the <span> element that closes the modal start
+//info
+  var ispan = document.getElementsByClassName("iclose")
+    for (shs of ispan) { //Iterates through HTML DOM elements
+        shs.onclick =  (el) => { //applies function to onclick event on iterated element
+            el.target.parentElement.parentElement.parentElement.style.visibility = "hidden"; //elevates itself from shclose-button to modal element, then sets display to none.
+        }
+    }
+
+</script>

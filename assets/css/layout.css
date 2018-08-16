@@ -1,6 +1,8 @@
 .sq-viewport{
-  height: 100vh;
-  width: 100vw;
+  max-height: 99vh;
+  max-width: 99vw;
+  margin: 0;
+
 }
 /* Grids */
 /* navbar - main - footer */
@@ -12,14 +14,14 @@
 }
 .sq-page{
   display: grid;
-  grid-template-rows: 15% 1fr 5%;
+  grid-template-rows: 6rem 1fr ;
   grid-template-columns: 1
 }
 .sq-nav-area{
   grid-area: 1 / 1 / 2 / 2;}
 
 .sq-navbar-layout{
-  grid-template-rows: 5vh 5vh 5vh;
+  grid-template-rows: 2rem 2rem 2rem;
   grid-template-columns: 1fr;
 }
 .sq-grid-navbar{
@@ -60,6 +62,14 @@
 }
 /* navbar - main - footer  end */
 
+/* Footer */
+.sq-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
+}
+/* Footer */
+
 .sq-main{
 	grid-row: 2 / 3;
 	grid-column: 1 / 2;
@@ -71,6 +81,7 @@
     grid-template-rows: repeat(5, calc(calc(100vh - calc(5% * 4)) / 5));
     grid-template-columns: repeat(9, 1fr);
     background-color: var(--background-secondary);
+    height: 100%;
 }
 .sq-grid-row-gap{grid-row-gap:1em;}
 .sq-grid-col-gap{grid-column-gap:1em;}
@@ -87,7 +98,11 @@
 .sq-panel-main-top{grid-area: 1 / 1 / span 2 / span end; }
 .sq-panel-main-bottom{grid-area: 3 / 1 / span end / span end; }
 .sq-panel-main{grid-area: 1 / 1 / span end / span end; }
-
+/* Products */
+.sq-panel-header-top{grid-area: 1 / 1 / span 1 / span end; }
+.sq-panel-header-bottom{grid-area: 2 / 1 / span 1 / span end; }
+.sq-panel-main-content{grid-area: 3 / 2 /  span end / span 7; }
+/* products end */
 /* cards */
 .sq-card{
     display: grid;
@@ -97,6 +112,28 @@
     transition: 0.3s;
     margin:.5rem;
 }
+
+.sq-grid-area-landing-best{
+  grid-area: 1 / 2 / span end / span 3;
+}
+.sq-grid-area-landing-news{
+  grid-area: 1 / 6 / span end / span 3;
+}
+.sq-landing-card{
+  width:12rem;
+  height:14rem;
+  border: 1px solid var(--primary);
+  background-color: var(--primary-highlight);
+  margin:0.5em;
+}
+.sq-product-card{
+  height:20rem;
+  width:20rem;
+  background-color: var(--primary-highlight);
+  margin:0.5em;
+}
+
+
 .sq-card-header{grid-area: 1 / 1 / span 1 / span end;}
 .sq-card-body{grid-area: 2 / 1 / span 1 / span end;}
 .sq-card-footer{grid-area: 3 / 1 / span 1 / span end;}
@@ -109,6 +146,27 @@
 	height: 100%;
 	width:	100%;
 }
+.sq-flex{
+  display: flex;
+}
+
+.sq-flex-auto{
+  flex: auto;
+}
+.sq-flex-wrap{
+  flex-wrap:wrap;
+}
+.sq-flex-1{
+  flex: 1;
+  }
+  .sq-force-right{
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+  .sq-force-left{
+    justify-content: flex-start;
+    margin-right: auto;
+  }
 .sq-flex-direction-col{flex-direction:column;}
 .sq-flex-direction-row{flex-direction: row;}
 
