@@ -21,13 +21,18 @@
           <p><strong>Contact Info</strong></p>
         </div>
         <input type="text" placeholder="User id...">
-        <input type="text" placeholder="Adresse...">
+        <!--Adresse-->
+        <div>
+          <h4 class="lastname"></h4>
+        </div>
         <input type="text" placeholder="Telefon...">
         <div class="sq-text-center">
           <p><strong>Factura Adress</strong></p>
         </div>
          <input type="text" placeholder="Streetname..."> 
-         <input type="text" placeholder="City...">
+         <div>
+          <h3 class="city"></h3>
+        </div>
         <input type="text" placeholder="Country...">     
         <input type="text" placeholder="zip code..">       
         <a href="#">
@@ -72,7 +77,7 @@
       <%#  %>
       <%= for user <- @users do %>
       <tr id="<%= user.id %>">
-        <td class="sq-border-1 sq-padding-05 name"><%= user.lname %></td>
+        <td class="sq-border-1 sq-padding-05 name"><%= user.email %></td>
         <td class="sq-border-1 sq-padding-05"> 
           <div class="sq-flex sq-justify-center">
             <button class="sq-admin-user-info">Info</button>
@@ -89,6 +94,12 @@
             <button>Delete</button>
           </div>
         </td>
+        <div>
+          <td class="sq-border-1 sq-padding-05 lastname" style="display:none"><%= user.fname %></td>
+        </div>
+        <div>
+          <td class="sq-border-1 sq-padding-05 city" style="display:none"><%= user.email %></td>
+          </div>
       </tr>
       <% end %>
       <%#  %>
@@ -165,8 +176,12 @@
       shs.onclick =  (el) => { //applies function to onclick event on iterated element
         var userID = el.target.parentElement.parentElement.parentElement.id;
         var userName = el.target.parentElement.parentElement.parentElement.querySelector('.name').innerHTML;
+        var lastName = el.target.parentElement.parentElement.parentElement.querySelector('.lastname').innerHTML;
+        var city = el.target.parentElement.parentElement.parentElement.querySelector('.city').innerHTML;
         imodal.querySelector('#userID').value = userID;
         imodal.querySelector('.name').innerHTML = userName;
+        imodal.querySelector('.lastname').innerHTML = lastName;
+        imodal.querySelector('.city').innerHTML = city;
         imodal.style.visibility = "visible";
     }
   }
