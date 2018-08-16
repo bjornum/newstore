@@ -120,14 +120,13 @@
 .sq-landing-card{
   width:12rem;
   height:14rem;
-  border: 1px solid var(--primary);
-  background-color: var(--primary-highlight);
+  background-color: var(--secondary-accent);
   margin:0.5em;
 }
 .sq-product-card{
   height:20rem;
   width:20rem;
-  background-color: var(--primary-highlight);
+  background-color: var(--secondary-accent);
   margin:0.5em;
 }
 

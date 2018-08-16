@@ -12,7 +12,7 @@
         <div class="sq-air-r-10  sq-bold">Handle</div>
         <div class="sq-bold" style="margin-left:5.8em;">Color</div>
         <div class="sq-bold" style="margin-left:3.8em">Theme</div>
-        </div>      
+        </div>
           <select class="sq-air-r-10 sq-padding-05 sq-text-small" id="ddlList">
             <option value="0">All</option>
             <option value="1">Handle</option>
@@ -54,7 +54,7 @@
 
 
 <%= for product <- @products do %>
-            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="background-color: #e8eff7; display:block;" >
+            <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="display:block;" >
                 <div class="sq-card-header sq-text-center sq-air-05">
                     <strong><%= product.name %></strong>
                 </div>
