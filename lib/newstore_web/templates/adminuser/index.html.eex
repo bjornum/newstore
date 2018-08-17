@@ -22,7 +22,7 @@
       </tr>
    
       <tr>
-        <td class="sq-border-1 sq-padding-05 "> <%= user.fname %></td>
+        <td class="sq-border-1 sq-padding-05 "> <%= user.address %></td>
         <td class="sq-border-1 sq-padding-05"> 
           <div class="sq-flex sq-justify-center">
             <button onclick="openModal('<%= user.id %>')">info</button>
