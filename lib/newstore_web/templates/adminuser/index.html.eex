@@ -98,7 +98,7 @@
           </div>
         </td>
         <div>
-          <td class="sq-border-1 sq-padding-05 lastname" style="display:none"><%= user.fname %></td>
+          <td class="sq-border-1 sq-padding-05 lastname" style="display:none"><%= user.lname %></td>
         </div>
         <div>
           <td class="sq-border-1 sq-padding-05 city" style="display:none"><%= user.email %></td>
