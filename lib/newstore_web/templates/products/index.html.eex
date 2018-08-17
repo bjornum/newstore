@@ -55,6 +55,10 @@
 
 <%= for product <- @products do %>
             <div class="sq-product-card sq-card sq-air-05 sq-admin-user-info" style="display:block;" >
+            <div id="<%= product.id %>"></div>
+            <div class="pName" style="display: none;"><%= product.name %></div>
+            <div class="pDetails" style="display: none;"><%= product.details %></div>
+
                 <div class="sq-card-header sq-text-center sq-air-05">
                     <strong><%= product.name %></strong>
                 </div>
@@ -67,6 +71,7 @@
                 </div>
             </div>
 
+            
         <% end %>
 
 
@@ -78,14 +83,15 @@
 </div>
 <div id="sq-modal-info" class="sq-modal">
       <div class="sq-modal-content">
-        <input hidden id="userID" value="">
+        <input hidden id="prodID" value="">
         <span class="iclose sq-close">&times;</span>
         <div class="sq-flex">
         <img src="/images/user.png" alt="" class="sq-landing-card sq-air-r-10">
-        <p>info about product</p>
+        <p class="pName"></p>
+        <p ></p>
         </div>
         <div class="sq-flex">
-        <p>More descriptive description of the product</p>
+        <p class="pDetails"></p>
         <a href="/shoppingcart"><button>Buy</button></a>
         </div>
       </div>
@@ -96,13 +102,18 @@
 
     // Button id that opens the modal start
     //Info
-    var info = document.getElementsByClassName("sq-landing-card");
-    for (shs of info) { //Iterates through HTML DOM elements
-        shs.onclick =  (el) => { //applies function to onclick event on iterated element
-            var userName = el.target.querySelector;
-            imodal.style.visibility = "visible";
-        }
+   var info = document.getElementsByClassName("sq-admin-user-info");
+  for (shs of info) { //Iterates through HTML DOM elements
+      shs.onclick =  (el) => { //applies function to onclick event on iterated element
+        var prodID = el.target.parentElement.parentElement.parentElement.id;
+        var prodName = el.target.parentElement.parentElement.parentElement.parentElement.querySelector('.pName').innerHTML;
+        var prodDetails = el.target.parentElement.parentElement.parentElement.parentElement.parentElement.querySelector('.pDetails').innerHTML;
+        imodal.querySelector('#prodID').value = prodID;
+        imodal.querySelector('.pName').innerHTML = prodName;
+        imodal.querySelector('.pDetails').innerHTML = prodDetails;
+        imodal.style.visibility = "visible";
     }
+  }
 
     // Get the <span> element that closes the modal start
     //info
