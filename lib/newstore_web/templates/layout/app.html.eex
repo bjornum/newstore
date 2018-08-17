@@ -9,7 +9,6 @@
   <title>Hello Newstore!</title>
   <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 </head>
-
 <body class="sq-viewport">
   <!-- Grid start -->
   <div class="sq-page">
@@ -22,7 +21,7 @@
           <div class=" sq-flex sq-air-x-05 sq-justify-evenly">
             <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05"></a>
             <a href="#" class="sq-text-white sq-secondary  sq-x-padding-05"></a>
-            <a href="#" class="sq-text-white sq-secondary "></a>
+            <a href="#" class="sq-text-white sq-secondary"></a>
           </div>
         </div>
         <!--NavBar part 2/3-->
@@ -37,12 +36,10 @@
           <!--SearchBar end-->
           <!--SignIn button -->
           <div class="sq-flex sq-flex-row sq-force-right" style="margin-right: 1em;">
-          <div class="sq-text-center">
-            <button class="sq-button1 sq-height-80p" onclick="toggleModal('myModal')" style=" margin-right: 1em; margin-top: 0; background-color: var(--secondary-highlight)">Login / Register</button>
-
-
-            <div class="sq-modal" id="myModal">
-
+            <div class="sq-text-center">
+              <button class="sq-button1 sq-height-80p" onclick="toggleModal('myModal')" style=" margin-right: 1em; margin-top: 0; background-color: var(--secondary-highlight)">Login / Register</button>
+              <!-- modal start -->
+              <div class="sq-modal" id="myModal">
                 <div class="sq-modal-content" style="width: 20em; height: 12em;">
                   <header>
                     <span class="sq-close" onclick="toggleModal('myModal')">&times;</span>
@@ -61,78 +58,79 @@
                               <button type="button" name="">Login</button>
                             </a>
                           </div>
-                        </a>
-                        <a href="/reguser">
-                          <div class="sq-force-right">
-                            <button type="button" name="">New user</button>
-                          </div>
-                        </a>
-                      </div>
-                    </fieldset>
-                  </form>
-                </section>
+                          <a href="/reguser">
+                            <div class="sq-force-right">
+                              <button type="button" name="">New user</button>
+                            </div>
+                          </a>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </section>
+                </div>
               </div>
+              <script>
+              function toggleModal(id) {
+                var modal = document.getElementById(id);
+                modal.classList.toggle("sq-show-modal");
+              }
+              </script>
+
             </div>
-            <script>
-            function toggleModal(id) {
-              var modal = document.getElementById(id);
-              modal.classList.toggle("sq-show-modal");
-            }
-            </script>
-          </div>
-          <!--SignIn button end -->
-          <!--ShoppingCart button -->
-          <button class="sq-nav-dropdown sq-button1 sq-height-80p sq-width-30em">
-            <svg id="i-cart" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-              <path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
-              <circle cx="25" cy="27" r="2" />
-              <circle cx="12" cy="27" r="2" />
-            </svg>
-            <div class=" sq-secondary sq-nav-dropdown-content-right">
-              <div class="sq-card">
-                <div class="sq-flex sq-justify-evenly">
-                  <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+            <!--Modal end -->
+            <!--SignIn button end -->
+            <!--ShoppingCart button -->
+            <button class="sq-nav-dropdown sq-button1 sq-height-80p sq-width-30em">
+              <svg id="i-cart" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
+                <circle cx="25" cy="27" r="2" />
+                <circle cx="12" cy="27" r="2" />
+              </svg>
+              <div class=" sq-secondary sq-nav-dropdown-content-right">
+                <div class="sq-card">
+                  <div class="sq-flex sq-justify-evenly">
+                    <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
                     <div>
                       <p>Pris:</p>
                       <p>500-,</p>
                     </div>
-                </div>
-                <div class="sq-flex sq-justify-evenly">
-                  <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                  </div>
+                  <div class="sq-flex sq-justify-evenly">
+                    <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
                     <div>
                       <p>Pris:</p>
                       <p>500-,</p>
                     </div>
-                </div>
-                <div class="sq-flex sq-justify-evenly">
-                  <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                  </div>
+                  <div class="sq-flex sq-justify-evenly">
+                    <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
                     <div>
                       <p>Pris:</p>
                       <p>500-,</p>
                     </div>
-                </div>
-                <div class="sq-flex sq-justify-evenly">
-                  <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                  </div>
+                  <div class="sq-flex sq-justify-evenly">
+                    <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
                     <div>
                       <p>Pris:</p>
                       <p>500-,</p>
                     </div>
-                </div>
-                <div class="sq-flex sq-justify-evenly">
-                  <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
+                  </div>
+                  <div class="sq-flex sq-justify-evenly">
+                    <img class="sq-border-1 sq-air-t-10" style="min-width:5em; max-width:5em; max-height:5em; min-height:5em;"></img>
                     <div>
                       <br>
                       <p>Pris:</p>
                       <p>500-,</p>
                     </div>
+                  </div>
+                  <div class="sq-force-right">
+                    <p>Sum: 2500-,</p>
+                  </div>
+                  <a class="sq-secondary-highlight sq-button1" href="/shoppingcart">To shoppingcart</a>
                 </div>
-                <div class="sq-force-right">
-                  <p>Sum: 2500-,</p>
-                </div>
-                <a class="sq-secondary-highlight sq-button1" href="/shoppingcart">To shoppingcart</a>
               </div>
-            </div>
-          </button>
+            </button>
           <!--ShoppingCart button end -->
           </div>
         </div>
@@ -146,15 +144,31 @@
           </div>
         </div>
       </div>
-      </nav>
+    </nav>
       <!--NavBar end-->
       <!-- Main content start -->
-      <main class="sq-main">
-        <%= render @view_module, @view_template, assigns %>
-      </main>
-    </div>
+    <main class="sq-main">
+      <%= render @view_module, @view_template, assigns %>
+    </main>
+    <footer class="sq-footer sq-secondary-highlight">
+      <div style="justify-content: space-around;" class="sq-secondary-highlight sq-flex sq-flex-row sq-justify-center">
+        <div>
+          Phone: <a href="tel:0000" class="sq-secondary-highlight sq-text-white">#########</a>
+        </div>
+        <div>
+          <a href="mailto:nobody@online.no" class="sq-secondary-highlight sq-text-white">Mail</a>
+        </div>
+        <div>
+          <a href="/about" class="sq-secondary-highlight sq-text-white">About</a>
+        </div>
+        <div>
+          <a href="/tos" class="sq-secondary-highlight sq-text-white">Terms of service</a>
+        </div>
+      </div>
+    </footer>
+  </div>
     <!-- Grid end-->
     <script src="<%= static_path(@conn, "/js/app.js") %>">
     </script>
-  </body>
-  </html>
+</body>
+</html>

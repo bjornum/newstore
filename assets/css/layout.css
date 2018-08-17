@@ -2,20 +2,21 @@
   max-height: 99vh;
   max-width: 99vw;
   margin: 0;
-
+  position: relative;
 }
 /* Grids */
 /* navbar - main - footer */
 .sq-grid-main{
   display:grid;
-  grid-template-rows: 15% auto;
+  grid-template-rows: 15% auto 5%;
   grid-template-columns: 15% auto;
   height:100%;
 }
 .sq-page{
   display: grid;
-  grid-template-rows: 6rem 1fr ;
-  grid-template-columns: 1
+  grid-template-rows: 6rem 1fr 2rem;
+  grid-template-columns: 1;
+  height:100%;
 }
 .sq-nav-area{
   grid-area: 1 / 1 / 2 / 2;}
@@ -64,14 +65,15 @@
 
 /* Footer */
 .sq-footer{
-  position: absolute;
+	grid-row: 3 / 3;
+	grid-column: 1 / 2;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
-/* Footer */
 
 .sq-main{
-	grid-row: 2 / 3;
+	grid-row: 2 / 2;
 	grid-column: 1 / 2;
 }
 

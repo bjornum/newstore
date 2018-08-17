@@ -22,6 +22,8 @@ defmodule NewstoreWeb.Router do
     get "/storage", StorageController, :index
     get "/admin", AdminController, :index
     get "/reguser", ReguserController, :index
+    get "/about", AboutController, :index
+    get "/tos", TosController, :index
   end
 
   scope "/admin", NewstoreWeb do
