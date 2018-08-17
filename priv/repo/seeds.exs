@@ -11,7 +11,7 @@
 # and so on) as they will fail if something goes wrong.
 
 # Users and login
-user = %{fname: "Test1", lname: "Testmann", phone: "123456789", postal_code: "7715"}
+user = %{fname: "Jane", lname: "Doe", phone: "123456789", postal_code: "7715", address: "Kongensgate 35", country: "Norway", city: "Steinkjer"}
 login = %{email: "test1@mail.com", password_hash: "notimplemented", isadmin: true}
 Prios.Identity.create_user(user, login)
 
