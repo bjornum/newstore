@@ -15,7 +15,7 @@ user = %{fullname: "Jane Doe", fname: "Jane", lname: "Doe", phone: "123456789", 
 login = %{email: "test1@mail.com", password_hash: "notimplemented", isadmin: true}
 Prios.Identity.create_user(user, login)
 
-user = %{fullname: "Petter Testmann", fname: "Petter", lname: "Testmann", phone: "111222333", postal_code: "7799", address: "Oslo Veg 32", country: "Norway", city: "Oslo"}
+user = %{fullname: "Petter Testmann", fname: "Jack", lname: "Testmann", phone: "111222333", postal_code: "7799", address: "Oslo Veg 32", country: "Norway", city: "Oslo"}
 login = %{email: "test2@mail.com", password_hash: "notimplemented", isadmin: true}
 Prios.Identity.create_user(user, login)
 user = %{fullname: "Bob Smith", fname: "Bob", lname: "Smith", phone: "999999999", postal_code: "55692", address: "Mississippi Street 2", country: "America", city: "Mississippi"}
