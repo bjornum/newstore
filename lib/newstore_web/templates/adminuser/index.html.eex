@@ -23,6 +23,9 @@
         <input type="text" placeholder="User id...">
         <!--Adresse-->
         <div>
+          <h4 class="firstname"></h4>
+        </div>
+        <div>
           <h4 class="lastname"></h4>
         </div>
         <input type="text" placeholder="Telefon...">
@@ -99,7 +102,10 @@
         </div>
         <div>
           <td class="sq-border-1 sq-padding-05 city" style="display:none"><%= user.email %></td>
-          </div>
+        </div>
+        <div>
+          <td class="sq-border-1 sq-padding-05 firstname" style="display:none"><%= user.fname %></td>
+        </div>
       </tr>
       <% end %>
       <%#  %>
@@ -176,10 +182,12 @@
       shs.onclick =  (el) => { //applies function to onclick event on iterated element
         var userID = el.target.parentElement.parentElement.parentElement.id;
         var userName = el.target.parentElement.parentElement.parentElement.querySelector('.name').innerHTML;
+        var firstName = el.target.parentElement.parentElement.parentElement.querySelector('.firstname').innerHTML;
         var lastName = el.target.parentElement.parentElement.parentElement.querySelector('.lastname').innerHTML;
         var city = el.target.parentElement.parentElement.parentElement.querySelector('.city').innerHTML;
         imodal.querySelector('#userID').value = userID;
         imodal.querySelector('.name').innerHTML = userName;
+        imodal.querySelector('.firstname').innerHTML = city;
         imodal.querySelector('.lastname').innerHTML = lastName;
         imodal.querySelector('.city').innerHTML = city;
         imodal.style.visibility = "visible";
