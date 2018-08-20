@@ -1,0 +1,26 @@
+<h2>Show User</h2>
+
+<ul>
+
+  <li>
+    <strong>Username:</strong>
+    <%= @login.username %>
+  </li>
+  <li>
+    <strong>First name:</strong>
+    <%= @login.users.fname %>
+  </li>
+  <li>
+    <strong>Last name:</strong>
+    <%= @login.users.lname %>
+  </li>
+  <li>
+    <strong>Email:</strong>
+    <%= @login.users.email %>
+  </li>
+
+
+</ul>
+
+<span><%= link "Edit", to: user_path(@conn, :edit, @login) %></span>
+<span><%= link "Back", to: page_path(@conn, :index) %></span>

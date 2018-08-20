@@ -60,7 +60,7 @@
                           </div>
                           <a href="/reguser">
                             <div class="sq-force-right">
-                              <button type="button" name="">New user</button>
+                              <button type="button" name=""><%= link "Sign up", to: user_path(@conn, :new) %></button>
                             </div>
                           </a>
                         </div>
@@ -137,6 +137,16 @@
         <!-- Navbar part 3/3-->
         <div class="sq-navbar-links sq-secondary-highlight sq-text-center sq-force-2 sq-border-nav">
           <div class="sq-nav-btn-group sq-flex sq-justify-evenly" style="margin-top: 0.1em;">
+          <ul class="nav nav-pills pull-right">
+            <%= if signed_in?(@conn) do %>
+            <li><%= link "Sign out", to: session_path(@conn, :delete), method: :delete %></li>
+            <li><%= link my_user(@conn).username, to: user_path(@conn, :my_profile) %></li>
+          
+            <% else %>
+              <li><%= link "Sign In", to: session_path(@conn, :new) %></li>
+              <li><%= link "Sign up", to: user_path(@conn, :new) %></li>
+            <% end %>
+          </ul>
            <button><a href="#">Categories</a></button>
            <button><a href="/products">Products</a></button>
             <button><a href="/products">Top sellers</a></button>

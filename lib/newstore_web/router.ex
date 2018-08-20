@@ -24,10 +24,15 @@ defmodule NewstoreWeb.Router do
     get "/reguser", ReguserController, :index
     get "/about", AboutController, :index
     get "/tos", TosController, :index
+    get "/my_profile", UserController, :my_profile
+
+    get "/sign-in", SessionController, :new
+    post "/sign-in", SessionController, :create
+    delete "/sign-out", SessionController, :delete
+    resources "/user", UserController
   end
 
   scope "/admin", NewstoreWeb do
-    get "/user", UserController, :index
     get "/adminuser", AdminuserController, :index
     get "/adminproduct", AdminproductController, :index
   end
