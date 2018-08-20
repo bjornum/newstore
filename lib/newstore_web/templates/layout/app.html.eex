@@ -139,8 +139,8 @@
           <div class="sq-nav-btn-group sq-flex sq-justify-evenly">
             <a href="#">Categories</a>
             <a href="/products">Products</a>
-            <a href="#">Best selgere</a>
-            <a href="#">Kampanje</a>
+            <a href="/products">Top sellers</a>
+            <a href="/products">Campaign</a>
           </div>
         </div>
       </div>
