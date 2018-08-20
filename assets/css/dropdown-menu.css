@@ -2,6 +2,7 @@
 .sq-nav-dropdown{
   position:relative;
   display: inline-block;
+  cursor:auto;
 }
 /* Container with the dropdown content */
 .sq-nav-dropdown-content{
@@ -45,4 +46,7 @@ display: block;
     padding: 12px 16px;
     z-index: 1;
 	right: 0;
+}
+.sq-nav-cursor{
+  cursor:pointer;
 }

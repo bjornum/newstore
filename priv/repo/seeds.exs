@@ -11,14 +11,14 @@
 # and so on) as they will fail if something goes wrong.
 
 # Users and login
-user = %{fname: "Test1", lname: "Testmann"}
+user = %{fname: "Jane", lname: "Doe", phone: "123456789", postal_code: "7715", address: "Kongensgate 35", country: "Norway", city: "Steinkjer"}
 login = %{email: "test1@mail.com", password_hash: "notimplemented", isadmin: true}
 Prios.Identity.create_user(user, login)
 
-user = %{fname: "Test2", lname: "Testmann"}
+user = %{fname: "Jack", lname: "Testmann", phone: "111222333", postal_code: "7799", address: "Oslo Veg 32", country: "Norway", city: "Oslo"}
 login = %{email: "test2@mail.com", password_hash: "notimplemented", isadmin: true}
 Prios.Identity.create_user(user, login)
-user = %{fname: "Test3", lname: "Testmann"}
+user = %{fname: "Bob", lname: "Smith", phone: "999999999", postal_code: "55692", address: "Mississippi Street 2", country: "America", city: "Mississippi"}
 login = %{email: "test3@mail.com", password_hash: "notimplemented", isadmin: true}
 Prios.Identity.create_user(user, login)
 

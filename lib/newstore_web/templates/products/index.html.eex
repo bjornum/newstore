@@ -32,7 +32,7 @@
                     <option value="0">All</option>
                     <option value="1">Winter</option>
                     <option value="2">Summer</option>
-                    <option value="3">Fall</option>
+                    <option value="3">Spring</option>
                     <option value="4">Autumn</option>
              </select>
                  <button class="sq-air-r-05" style="float: right;"><label for="button">Highest price</label>
